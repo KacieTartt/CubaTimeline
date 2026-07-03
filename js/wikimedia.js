@@ -28,6 +28,40 @@ const Wikimedia = (() => {
     }
   }
 
+  const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+
+  /** A small global queue so we never have more than MAX_CONCURRENT Commons
+      requests in flight at once — scrolling past many cards at once would
+      otherwise fire dozens of parallel requests and risk being rate-limited
+      or having connections dropped, which looks like "no image found" but
+      is really "the request never got a clean answer." */
+  const MAX_CONCURRENT = 4;
+  let activeCount = 0;
+  const waitQueue = [];
+
+  function acquireSlot() {
+    if (activeCount < MAX_CONCURRENT) {
+      activeCount++;
+      return Promise.resolve();
+    }
+    return new Promise(resolve => waitQueue.push(resolve));
+  }
+
+  function releaseSlot() {
+    if (waitQueue.length) {
+      const next = waitQueue.shift();
+      next();
+    } else {
+      activeCount--;
+    }
+  }
+
+  async function fetchOnce(endpoint) {
+    const res = await fetch(endpoint);
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    return res.json();
+  }
+
   /** Returns an array of candidate images (best first), or [] if none found. */
   async function fetchCandidates(term, limit) {
     limit = limit || 10;
@@ -49,10 +83,19 @@ const Wikimedia = (() => {
     });
 
     let candidates = [];
+    await acquireSlot();
     try {
-      const res = await fetch(endpoint);
-      if (res.ok) {
-        const data = await res.json();
+      let data = null;
+      // Retry once after a short delay on any transient failure (network
+      // blip, momentary rate limit) before treating it as "no results."
+      for (let attempt = 0; attempt < 2 && data === null; attempt++) {
+        try {
+          data = await fetchOnce(endpoint);
+        } catch (e) {
+          if (attempt === 0) await sleep(500 + Math.random() * 500);
+        }
+      }
+      if (data) {
         const pages = data && data.query && data.query.pages ? Object.values(data.query.pages) : [];
         candidates = pages
           .map(p => p.imageinfo && p.imageinfo[0])
@@ -64,8 +107,8 @@ const Wikimedia = (() => {
             attribution: (info.extmetadata && info.extmetadata.Artist && info.extmetadata.Artist.value) || null
           }));
       }
-    } catch (e) {
-      candidates = [];
+    } finally {
+      releaseSlot();
     }
 
     cacheSet(cacheKey, candidates);

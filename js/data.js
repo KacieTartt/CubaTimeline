@@ -103,7 +103,7 @@ const EVENTS = [
     whyItMatters: "Hatuey is honored today as Cuba's first national hero and a symbol of anti-colonial resistance — notably, he was executed near Yara, the same town where Céspedes would declare independence 356 years later."
   },
   confidence: "high", confidenceNotes: "Date and core narrative are consistently corroborated across historical sources, including Las Casas's own account.",
-  wikimedia: { searchTerm: "Hatuey Taino cacique", confidence: "high" },
+  wikimedia: { searchTerm: "Hatuey monument Baracoa statue", confidence: "verify" },
   links: [],
   videos: []
 },

@@ -1,5 +1,8 @@
 /* ============================================================
    Wikimedia Commons image lookup — no API key required.
+   Returns several ranked candidates per search term (not just the
+   top hit) so the app can skip any image it has already shown
+   elsewhere on the page, avoiding repeated photos across entries.
    Caches results in sessionStorage so repeated filtering/search
    doesn't refetch the same term.
    ============================================================ */
@@ -25,7 +28,8 @@ const Wikimedia = (() => {
     }
   }
 
-  async function fetchImage(term) {
+  /** Returns an array of candidate images (best first), or [] if none found. */
+  async function fetchCandidates(term) {
     const cached = cacheGet(term);
     if (cached !== undefined) return cached;
 
@@ -34,7 +38,7 @@ const Wikimedia = (() => {
       generator: "search",
       gsrsearch: `filetype:bitmap ${term}`,
       gsrnamespace: "6",
-      gsrlimit: "6",
+      gsrlimit: "10",
       prop: "imageinfo",
       iiprop: "url|size|extmetadata",
       iiurlwidth: "640",
@@ -42,31 +46,29 @@ const Wikimedia = (() => {
       origin: "*"
     });
 
-    let result = null;
+    let candidates = [];
     try {
       const res = await fetch(endpoint);
       if (res.ok) {
         const data = await res.json();
         const pages = data && data.query && data.query.pages ? Object.values(data.query.pages) : [];
-        const candidate = pages
+        candidates = pages
           .map(p => p.imageinfo && p.imageinfo[0])
           .filter(info => info && info.width >= MIN_WIDTH && info.height >= MIN_WIDTH)
-          .sort((a, b) => (b.width * b.height) - (a.width * a.height))[0];
-        if (candidate) {
-          result = {
-            url: candidate.thumburl || candidate.url,
-            descriptionUrl: candidate.descriptionurl || null,
-            attribution: (candidate.extmetadata && candidate.extmetadata.Artist && candidate.extmetadata.Artist.value) || null
-          };
-        }
+          .sort((a, b) => (b.width * b.height) - (a.width * a.height))
+          .map(info => ({
+            url: info.thumburl || info.url,
+            descriptionUrl: info.descriptionurl || null,
+            attribution: (info.extmetadata && info.extmetadata.Artist && info.extmetadata.Artist.value) || null
+          }));
       }
     } catch (e) {
-      result = null;
+      candidates = [];
     }
 
-    cacheSet(term, result);
-    return result;
+    cacheSet(term, candidates);
+    return candidates;
   }
 
-  return { fetchImage };
+  return { fetchCandidates };
 })();

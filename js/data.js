@@ -31,7 +31,7 @@ const EVENTS = [
     whyItMatters: "Understanding Taíno society as a functioning, sophisticated culture — not an empty backdrop for European arrival — is essential context for everything the course covers about conquest, resistance, and Ortiz's later concept of transculturation."
   },
   confidence: "high", confidenceNotes: "Specific population and settlement-date ranges are debated among historians; figures here are broad estimates.",
-  wikimedia: { searchTerm: "Taíno people artifacts", confidence: "verify" },
+  wikimedia: { searchTerm: "Taíno zemi sculpture", confidence: "verify" },
   links: [],
   videos: []
 },
@@ -67,7 +67,7 @@ const EVENTS = [
     whyItMatters: "It's a vivid, genuinely surprising illustration of how colonial power could compel 'truth' by decree — a theme that recurs throughout Cuban history in different forms."
   },
   confidence: "high", confidenceNotes: "Well documented in multiple historical accounts of the second voyage.",
-  wikimedia: { searchTerm: "Columbus voyages map 1494", confidence: "verify" },
+  wikimedia: { searchTerm: "Columbus ship Santa María replica", confidence: "verify" },
   links: [],
   videos: []
 },
@@ -121,7 +121,7 @@ const EVENTS = [
     whyItMatters: "This sets up one of the course's central tensions: the old narrative of indigenous 'disappearance' versus Ortiz's later transculturation framework, which insists indigenous, African, and Spanish elements all persist and blend rather than one simply vanishing."
   },
   confidence: "high", confidenceNotes: "Specific population figures are heavily disputed and vary widely across sources; treat any single number with caution.",
-  wikimedia: { searchTerm: "Taino indigenous Cuba history illustration", confidence: "verify" },
+  wikimedia: { searchTerm: "Theodor de Bry Spanish conquest engraving", confidence: "verify" },
   links: [],
   videos: []
 },
@@ -190,7 +190,7 @@ const EVENTS = [
     whyItMatters: "It's a fun, little-known hinge point: without this raid, Havana's iconic fortification system — a huge part of what makes Old Havana a UNESCO site today — might have taken a very different shape."
   },
   confidence: "high", confidenceNotes: "Corroborated by fort-construction histories, though exact casualty/ransom details vary by source.",
-  wikimedia: { searchTerm: "Jacques de Sores privateer Havana", confidence: "verify" },
+  wikimedia: { searchTerm: "16th century galleon privateer painting", confidence: "verify" },
   links: [],
   videos: []
 },
@@ -324,7 +324,7 @@ const EVENTS = [
     whyItMatters: "This is one of the most overlooked chapters of Cuban labor history — most students have never heard of it, and it's essential context for Cuba's Chinese-Cuban community and cultural fusion today."
   },
   confidence: "high", confidenceNotes: "First-arrival date and overall trade timeline (1847–1874) are well corroborated across academic sources.",
-  wikimedia: { searchTerm: "Chinese indentured laborers Cuba", confidence: "verify" },
+  wikimedia: { searchTerm: "Barrio Chino Havana Chinatown", confidence: "verify" },
   links: [],
   videos: []
 },
@@ -342,7 +342,7 @@ const EVENTS = [
     whyItMatters: "It shows how slowly and reluctantly formal abolition proceeded in Cuba compared to the more radical, immediate emancipations declared by independence fighters like Céspedes."
   },
   confidence: "high", confidenceNotes: "Date and core provisions are well documented.",
-  wikimedia: { searchTerm: "Moret Law Spain abolition", confidence: "verify" },
+  wikimedia: { searchTerm: "Segismundo Moret portrait", confidence: "verify" },
   links: [],
   videos: []
 },
@@ -360,7 +360,7 @@ const EVENTS = [
     whyItMatters: "The lateness of Cuban abolition is a key data point for understanding how deeply the sugar economy depended on coerced labor, and how that legacy shaped Afro-Cuban social and political life into the 20th century."
   },
   confidence: "high", confidenceNotes: "Well documented and consistently dated.",
-  wikimedia: { searchTerm: "abolition of slavery Cuba 1886", confidence: "verify" },
+  wikimedia: { searchTerm: "Cuban sugar plantation slavery illustration", confidence: "verify" },
   links: [],
   videos: []
 },
@@ -398,7 +398,7 @@ const EVENTS = [
     whyItMatters: "It demonstrates that Cuban independence was never a single clean break, but a long, repeatedly interrupted struggle — the war that resumes in 1895 picks up threads left unresolved here."
   },
   confidence: "high", confidenceNotes: "General outcome is well documented; specific negotiated terms vary in emphasis across sources.",
-  wikimedia: { searchTerm: "Pact of Zanjón Cuba 1878", confidence: "verify" },
+  wikimedia: { searchTerm: "Antonio Maceo Cuban general", confidence: "verify" },
   links: [],
   videos: []
 },
@@ -454,7 +454,7 @@ const EVENTS = [
     whyItMatters: "It's the organizational bridge between Martí's writing and the actual outbreak of the 1895 war."
   },
   confidence: "high", confidenceNotes: "Exact founding date within 1892 varies by source.",
-  wikimedia: { searchTerm: "Partido Revolucionario Cubano Martí", confidence: "verify" },
+  wikimedia: { searchTerm: "José Martí 1890s portrait", confidence: "verify" },
   links: [],
   videos: []
 },
@@ -490,7 +490,7 @@ const EVENTS = [
     whyItMatters: "Martí's martyrdom cemented his status as 'the Apostle' of Cuban independence — a figure both the pre-1959 republic and the post-1959 revolutionary government would claim as their own."
   },
   confidence: "high", confidenceNotes: "Date is well documented and undisputed.",
-  wikimedia: { searchTerm: "José Martí death Dos Ríos", confidence: "verify" },
+  wikimedia: { searchTerm: "José Martí monument statue", confidence: "verify" },
   links: [],
   videos: []
 },
@@ -580,7 +580,7 @@ const EVENTS = [
     whyItMatters: "The Platt Amendment is the single clearest legal expression of U.S. neocolonial control over the nominally independent Cuban republic, and Guantánamo's lease — a direct legacy of this amendment — remains in effect today."
   },
   confidence: "high", confidenceNotes: "Core provisions and 1901 date are well documented.",
-  wikimedia: { searchTerm: "Platt Amendment Cuba", confidence: "verify" },
+  wikimedia: { searchTerm: "Orville Platt senator portrait", confidence: "verify" },
   links: [],
   videos: []
 },
@@ -654,7 +654,7 @@ const EVENTS = [
     whyItMatters: "It's a reminder that formal legal changes didn't necessarily end the underlying power imbalance — Guantánamo's continued U.S. control is the clearest surviving proof."
   },
   confidence: "high", confidenceNotes: "Well-documented date.",
-  wikimedia: { searchTerm: "Platt Amendment repeal 1934", confidence: "verify" },
+  wikimedia: { searchTerm: "Franklin D. Roosevelt Good Neighbor Policy", confidence: "verify" },
   links: [],
   videos: []
 },
@@ -858,7 +858,7 @@ const EVENTS = [
     whyItMatters: "It shows the new government investing in cultural soft power and pan-Latin American solidarity almost immediately after taking power."
   },
   confidence: "high", confidenceNotes: "Exact founding month is not fully certain across sources.",
-  wikimedia: { searchTerm: "Casa de las Américas Havana", confidence: "verify" },
+  wikimedia: { searchTerm: "Casa de las Américas building Havana", confidence: "verify" },
   links: [],
   videos: []
 },
@@ -876,7 +876,7 @@ const EVENTS = [
     whyItMatters: "This tit-for-tat escalation directly produces the U.S. embargo that would shape Cuban economic life for the rest of the 20th century and beyond."
   },
   confidence: "high", confidenceNotes: "General pattern is well documented; the precise sequence and dates of specific nationalizations vary by source.",
-  wikimedia: { searchTerm: "Cuba nationalization 1960 refinery", confidence: "verify" },
+  wikimedia: { searchTerm: "Havana oil refinery", confidence: "verify" },
   links: [],
   videos: []
 },
@@ -894,7 +894,7 @@ const EVENTS = [
     whyItMatters: "Along with agrarian reform, it's a concrete example of the redistributive policy that defined the Revolution's early domestic agenda."
   },
   confidence: "high", confidenceNotes: "General provisions are documented; exact date and details are less consistently reported across sources.",
-  wikimedia: { searchTerm: "Urban Reform Law Cuba 1960", confidence: "verify" },
+  wikimedia: { searchTerm: "Havana apartment buildings 1960s", confidence: "verify" },
   links: [],
   videos: []
 },
@@ -984,7 +984,7 @@ const EVENTS = [
     whyItMatters: "The CDRs are a useful single case for the double-edged nature of many revolutionary institutions: genuinely delivering public-health and social infrastructure at massive scale, while also functioning as a tool of political monitoring down to the block level."
   },
   confidence: "high", confidenceNotes: "Founding date and origin story are well documented; membership figures are most solid for the specific years cited.",
-  wikimedia: { searchTerm: "Committees for the Defense of the Revolution Cuba", confidence: "verify" },
+  wikimedia: { searchTerm: "Cuba CDR neighborhood mural", confidence: "verify" },
   links: [],
   videos: []
 },
@@ -1040,7 +1040,7 @@ const EVENTS = [
     whyItMatters: "It's a reminder that cultural production was treated as a revolutionary priority from nearly the first weeks of the new government."
   },
   confidence: "high", confidenceNotes: "Exact founding date within March 1959 is not fully certain across sources.",
-  wikimedia: { searchTerm: "ICAIC Cuban cinema institute poster", confidence: "verify" },
+  wikimedia: { searchTerm: "ICAIC Cuban film poster", confidence: "verify" },
   links: [],
   videos: []
 },
@@ -1076,7 +1076,7 @@ const EVENTS = [
     whyItMatters: "This single line is arguably the most consequential sentence in the history of Cuban cultural policy — cited by both defenders and critics of the Revolution's treatment of artists ever since."
   },
   confidence: "high", confidenceNotes: "Date and quote are well documented.",
-  wikimedia: { searchTerm: "Fidel Castro National Library 1961", confidence: "verify" },
+  wikimedia: { searchTerm: "Biblioteca Nacional José Martí Havana", confidence: "verify" },
   links: [
     { label: "\"Words to the Intellectuals\" — full text", url: "http://www.walterlippmann.com/fc-06-30-1961.html", confidence: "verify" }
   ],
@@ -1194,7 +1194,7 @@ const EVENTS = [
     whyItMatters: "The embargo's economic impact is one of the most contested and enduring topics in any Cuba course — central to nearly every subsequent era on this timeline."
   },
   confidence: "high", confidenceNotes: "Well-documented formal date.",
-  wikimedia: { searchTerm: "US embargo Cuba", confidence: "verify" },
+  wikimedia: { searchTerm: "Havana harbor ships", confidence: "verify" },
   links: [],
   videos: []
 },
@@ -1212,7 +1212,7 @@ const EVENTS = [
     whyItMatters: "It's both a genuinely bizarre, fun set of facts and a serious illustration of how far Cold War covert action against Cuba actually went — useful context for Cuban state rhetoric about U.S. hostility."
   },
   confidence: "high", confidenceNotes: "The 8 Church-Committee-substantiated plots are well documented; the popularized '638' figure is contested and should be flagged as such.",
-  wikimedia: { searchTerm: "CIA Cuba Church Committee investigation", confidence: "verify" },
+  wikimedia: { searchTerm: "Church Committee Senate hearing 1975", confidence: "verify" },
   links: [],
   videos: []
 },
@@ -1340,7 +1340,7 @@ const EVENTS = [
     whyItMatters: "It's an early preview of the same argument that recurs throughout later U.S.-Cuba relations, including the 2014 Thaw: does engagement help ordinary Cubans, or does it legitimize the government at their expense? El Diálogo split the exile community over exactly that question."
   },
   confidence: "high", confidenceNotes: "Broad outcomes are well documented; exact participant numbers and visit figures vary by source.",
-  wikimedia: { searchTerm: "Cuban exiles Havana 1979 visit", confidence: "verify" },
+  wikimedia: { searchTerm: "Cuban exile Miami 1970s community", confidence: "verify" },
   links: [],
   videos: []
 },
@@ -1376,7 +1376,7 @@ const EVENTS = [
     whyItMatters: "Both governments claiming José Martí as their own — one via Radio Martí, the other via official state ideology — is a vivid illustration of how contested Cuban national symbols remain even a century after independence."
   },
   confidence: "high", confidenceNotes: "Well-documented launch date and context.",
-  wikimedia: { searchTerm: "Radio Martí broadcasting", confidence: "verify" },
+  wikimedia: { searchTerm: "Voice of America shortwave transmitter", confidence: "verify" },
   links: [],
   videos: []
 },
@@ -1414,7 +1414,7 @@ const EVENTS = [
     whyItMatters: "It's the hinge point between the revolutionary state's Soviet-dependent economy and the more mixed, informally market-adapted economy of contemporary Cuba."
   },
   confidence: "high", confidenceNotes: "Well-documented trigger and start year.",
-  wikimedia: { searchTerm: "Cuba Special Period 1990s", confidence: "verify" },
+  wikimedia: { searchTerm: "Havana bicycle 1990s", confidence: "verify" },
   links: [],
   videos: []
 },
@@ -1432,7 +1432,7 @@ const EVENTS = [
     whyItMatters: "It's the beginning of the market-oriented adaptations that, in different forms, continue to shape the Cuban economy today."
   },
   confidence: "high", confidenceNotes: "General reforms are well documented; exact scope and rollout dates are simplified here.",
-  wikimedia: { searchTerm: "Cuba dollar economy 1990s", confidence: "verify" },
+  wikimedia: { searchTerm: "Cuban peso currency", confidence: "verify" },
   links: [],
   videos: []
 },
@@ -1581,7 +1581,7 @@ const EVENTS = [
     whyItMatters: "It's a reminder that U.S.-Cuba policy has swung sharply between administrations, keeping the relationship politically unsettled up to the present."
   },
   confidence: "high", confidenceNotes: "Kept intentionally general given the number of individual policy actions across this period; consult current sources for specifics if teaching this in detail.",
-  wikimedia: { searchTerm: "US Cuba relations policy 2017", confidence: "verify" },
+  wikimedia: { searchTerm: "US embassy Havana building", confidence: "verify" },
   links: [],
   videos: []
 },

@@ -136,12 +136,39 @@
       if (e.key === "Enter" || e.key === " ") { e.preventDefault(); openDrawer(ev.id); }
     });
 
-    lazyLoadImage(card.querySelector('[data-role="media"]'), ev.wikimedia.searchTerm);
+    lazyLoadImage(card.querySelector('[data-role="media"]'), ev);
 
     return card;
   }
 
   /* ---------------- Images (lazy, via IntersectionObserver) ---------------- */
+  /* Each event's image is resolved once and remembered by event id, so its
+     card thumbnail and drawer image always agree. Resolution skips any
+     candidate URL already claimed by a different event, so two entries
+     never end up showing the same photo. */
+
+  const imagePromises = new Map(); // eventId -> Promise<candidate | null>
+  const usedImageUrls = new Set();
+
+  function resolveImageForEvent(ev) {
+    if (imagePromises.has(ev.id)) return imagePromises.get(ev.id);
+    // Registered synchronously before any await, so a card's lazy-load and a
+    // simultaneous drawer-open for the same event share one resolution
+    // instead of racing to independently pick (possibly different) images.
+    const promise = (async () => {
+      let chosen = null;
+      try {
+        const candidates = await Wikimedia.fetchCandidates(ev.wikimedia.searchTerm);
+        chosen = candidates.find(c => !usedImageUrls.has(c.url)) || null;
+      } catch (e) {
+        chosen = null;
+      }
+      if (chosen) usedImageUrls.add(chosen.url);
+      return chosen;
+    })();
+    imagePromises.set(ev.id, promise);
+    return promise;
+  }
 
   const imageObserver = "IntersectionObserver" in window
     ? new IntersectionObserver((entries, obs) => {
@@ -149,24 +176,24 @@
           if (entry.isIntersecting) {
             const el = entry.target;
             obs.unobserve(el);
-            loadImageInto(el, el.dataset.term);
+            loadImageInto(el, eventById[el.dataset.eventId]);
           }
         });
       }, { rootMargin: "200px" })
     : null;
 
-  function lazyLoadImage(mediaEl, term) {
-    mediaEl.dataset.term = term;
+  function lazyLoadImage(mediaEl, ev) {
+    mediaEl.dataset.eventId = ev.id;
     if (imageObserver) {
       imageObserver.observe(mediaEl);
     } else {
-      loadImageInto(mediaEl, term);
+      loadImageInto(mediaEl, ev);
     }
   }
 
-  async function loadImageInto(mediaEl, term) {
+  async function loadImageInto(mediaEl, ev) {
     try {
-      const result = await Wikimedia.fetchImage(term);
+      const result = await resolveImageForEvent(ev);
       if (result && result.url) {
         const img = document.createElement("img");
         img.src = result.url;
@@ -242,7 +269,7 @@
     });
 
     const drawerMedia = drawerContent.querySelector('[data-role="drawer-media"]');
-    loadImageInto(drawerMedia, ev.wikimedia.searchTerm);
+    loadImageInto(drawerMedia, ev);
 
     drawer.classList.add("is-open");
     drawer.setAttribute("aria-hidden", "false");

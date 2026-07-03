@@ -145,7 +145,23 @@
   /* Each event's image is resolved once and remembered by event id, so its
      card thumbnail and drawer image always agree. Resolution skips any
      candidate URL already claimed by a different event, so two entries
-     never end up showing the same photo. */
+     never end up showing the same photo. If an event's specific search
+     term turns up nothing usable, resolution falls back to a broader,
+     era-level search and finally to a generic Cuba search, so every
+     entry ends up with *some* image rather than the color-block
+     placeholder — the placeholder is now a true last resort. */
+
+  const ERA_FALLBACK_TERMS = {
+    "indigenous-conquest": "Taíno Cuba indigenous history",
+    "sugar-slavery-colonialism": "Cuba colonial Havana architecture",
+    "independence-struggle": "Cuban War of Independence history",
+    "neocolonial-revolution": "Cuba Havana early 20th century",
+    "building-new-society": "Cuba 1960s revolution history",
+    "culture-revolution": "Cuba art culture Havana",
+    "revolution-and-world": "Cuba Cold War history",
+    "post-revolutionary-contemporary": "Havana Cuba contemporary"
+  };
+  const FINAL_FALLBACK_TERM = "Havana Cuba";
 
   const imagePromises = new Map(); // eventId -> Promise<candidate | null>
   const usedImageUrls = new Set();
@@ -156,12 +172,20 @@
     // simultaneous drawer-open for the same event share one resolution
     // instead of racing to independently pick (possibly different) images.
     const promise = (async () => {
+      const tiers = [
+        { term: ev.wikimedia.searchTerm, limit: 10 },
+        { term: ERA_FALLBACK_TERMS[ev.era] || FINAL_FALLBACK_TERM, limit: 20 },
+        { term: FINAL_FALLBACK_TERM, limit: 40 }
+      ];
       let chosen = null;
-      try {
-        const candidates = await Wikimedia.fetchCandidates(ev.wikimedia.searchTerm);
-        chosen = candidates.find(c => !usedImageUrls.has(c.url)) || null;
-      } catch (e) {
-        chosen = null;
+      for (const tier of tiers) {
+        try {
+          const candidates = await Wikimedia.fetchCandidates(tier.term, tier.limit);
+          chosen = candidates.find(c => !usedImageUrls.has(c.url)) || null;
+        } catch (e) {
+          chosen = null;
+        }
+        if (chosen) break;
       }
       if (chosen) usedImageUrls.add(chosen.url);
       return chosen;

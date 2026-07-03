@@ -29,8 +29,10 @@ const Wikimedia = (() => {
   }
 
   /** Returns an array of candidate images (best first), or [] if none found. */
-  async function fetchCandidates(term) {
-    const cached = cacheGet(term);
+  async function fetchCandidates(term, limit) {
+    limit = limit || 10;
+    const cacheKey = term + "::" + limit;
+    const cached = cacheGet(cacheKey);
     if (cached !== undefined) return cached;
 
     const endpoint = "https://commons.wikimedia.org/w/api.php?" + new URLSearchParams({
@@ -38,7 +40,7 @@ const Wikimedia = (() => {
       generator: "search",
       gsrsearch: `filetype:bitmap ${term}`,
       gsrnamespace: "6",
-      gsrlimit: "10",
+      gsrlimit: String(limit),
       prop: "imageinfo",
       iiprop: "url|size|extmetadata",
       iiurlwidth: "640",
@@ -66,7 +68,7 @@ const Wikimedia = (() => {
       candidates = [];
     }
 
-    cacheSet(term, candidates);
+    cacheSet(cacheKey, candidates);
     return candidates;
   }
 

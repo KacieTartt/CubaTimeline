@@ -134,7 +134,7 @@ const EVENTS = [
   isFunFact: false,
   summary: "In Contrapunteo cubano del tabaco y el azúcar (Cuban Counterpoint: Tobacco and Sugar), anthropologist Fernando Ortiz proposes \"transculturation\" over \"acculturation\" to describe how Cuban culture blends Indigenous, African, and Spanish elements into something genuinely new.",
   details: {
-    context: "Ortiz argued that older terms like 'acculturation' implied a one-way process of a minority culture simply absorbing a dominant one. He coined 'transculturación' to capture a more reciprocal process: a loss of prior culture, a partial acquisition of a new one, and — crucially — the creation of new cultural phenomena that didn't exist in either source culture. He illustrated the idea through the parallel histories of tobacco (indigenous-rooted) and sugar (colonial, industrial) in Cuba.",
+    context: "Ortiz argued that older terms like 'acculturation' implied a one-way process of a minority culture simply absorbing a dominant one. He coined 'transculturación' to capture a more reciprocal process: a loss of prior culture, a partial acquisition of a new one, and — crucially — the creation of new cultural phenomena that didn't exist in either source culture. He illustrated the idea through the parallel histories of tobacco (indigenous-rooted) and sugar (colonial, industrial) in Cuba. In a later essay, 'Los factores humanos de la cubanidad' (The Human Factors of Cubanness), Ortiz offered a second, more famous metaphor: Cuba as an ajiaco, a hearty stew — pork, yuca, malanga, corn, plantains — that never stops cooking as new ingredients are added. Where 'transculturación' is the process, the ajiaco is the image of the result: a culture defined by constant mixture rather than a fixed origin.",
     connections: ["taino-population-collapse", "columbus-lands-1492"],
     whyItMatters: "Transculturación became one of the most influential concepts in Latin American cultural studies, and it's the analytical lens the course uses to read every other event on this timeline — not a simple story of conquest and loss, but of ongoing cultural synthesis."
   },
@@ -970,8 +970,62 @@ const EVENTS = [
   links: [],
   videos: []
 },
+{
+  id: "committees-defense-revolution-1960",
+  title: "Committees for the Defense of the Revolution (CDRs) Founded",
+  date: "1960-09-28", dateDisplay: "September 28, 1960",
+  era: "building-new-society",
+  readingTags: ["Building the New Society"],
+  isFunFact: false,
+  summary: "After counterrevolutionary bombs went off near a Havana rally, Castro announces a neighborhood 'committee of revolutionary vigilance' on every block — the CDRs, a nationwide network combining civil defense, surveillance, and community organizing.",
+  details: {
+    context: "Organized by city block, factory floor, and farm, CDRs quickly grew to hundreds of thousands of members and took on responsibilities well beyond watching for counterrevolutionary activity — coordinating vaccination and literacy campaigns, food distribution, and neighborhood improvement. By 2010, roughly 8.4 million of Cuba's 11.2 million people were registered CDR members. They've also drawn sustained criticism as an instrument of social surveillance and pressure against dissent.",
+    connections: ["literacy-campaign-1961", "healthcare-system-1960s"],
+    whyItMatters: "The CDRs are a useful single case for the double-edged nature of many revolutionary institutions: genuinely delivering public-health and social infrastructure at massive scale, while also functioning as a tool of political monitoring down to the block level."
+  },
+  confidence: "high", confidenceNotes: "Founding date and origin story are well documented; membership figures are most solid for the specific years cited.",
+  wikimedia: { searchTerm: "Committees for the Defense of the Revolution Cuba", confidence: "verify" },
+  links: [],
+  videos: []
+},
 
 // ---------------- ERA 6: Culture and Revolution ----------------
+{
+  id: "nicolas-guillen-afro-cuban-poetry",
+  title: "Nicolás Guillén and Afro-Cuban Poetry",
+  date: "1930-01-01", dateDisplay: "1930",
+  era: "culture-revolution",
+  readingTags: ["Culture and Revolution"],
+  isFunFact: false,
+  summary: "Nicolás Guillén publishes Motivos de son, using the rhythms and speech of Afro-Cuban son music to found a new school of poetry — part of a broader 1930s movement to recover Afro-Cuban heritage as central to Cuban national identity, not peripheral to it.",
+  details: {
+    context: "Guillén — of mixed African and Spanish descent, and later named Cuba's national poet — wrote Motivos de son after meeting Langston Hughes in Havana in 1930, fusing literary form with the sound and speech patterns of Afro-Cuban popular music. His poem 'Caña' ('Sugarcane') distills the plantation economy into four blunt images — the Black laborer beside the cane, the Yankee above it, the earth beneath it, the blood being lost — connecting the sugar economy directly to race and foreign ownership. He would go on to serve as president of the Union of Writers and Artists of Cuba (UNEAC) after 1959.",
+    connections: ["ortiz-transculturacion-1940", "cuba-largest-sugar-producer", "santeria-palo-monte"],
+    whyItMatters: "Guillén's work is the clearest literary companion to Ortiz's transculturación — using poetry, rather than anthropology, to insist that Afro-Cuban culture is Cuban culture, not an addition to it."
+  },
+  confidence: "verify", confidenceNotes: "Publication year and core biography are well documented; some anthologized translations of 'Caña' vary slightly in wording.",
+  wikimedia: { searchTerm: "Nicolás Guillén Cuban poet", confidence: "verify" },
+  links: [],
+  videos: []
+},
+{
+  id: "santeria-palo-monte",
+  title: "Santería and Palo Monte",
+  date: "1850-01-01", dateDisplay: "Roots in the 19th century, practiced today",
+  era: "culture-revolution",
+  readingTags: ["Culture and Revolution"],
+  isFunFact: false,
+  summary: "Enslaved Yoruba and Kongo peoples in Cuba built Santería (Regla de Ocha) and Palo Monte by fusing West and Central African religious traditions with Spanish Catholicism — worshipping their own orishas and spirits behind the faces of Catholic saints.",
+  details: {
+    context: "Under a colonial system that suppressed African religious practice, enslaved worshippers mapped their deities onto Catholic saints so the two could be practiced side by side, in the open: Ochún, orisha of rivers and love, is venerated through Cuba's patron saint, Our Lady of Charity (Virgen de la Caridad); Yemayá, mother of the sea, is venerated through Our Lady of Regla. Palo Monte, rooted in Kongo rather than Yoruba tradition, developed alongside Santería with its own distinct cosmology and ritual practice. Both religions were marginalized for decades after 1959 as the officially atheist state discouraged religious practice, before a more tolerant policy took hold from the 1990s on.",
+    connections: ["callejon-de-hamel-1990", "nicolas-guillen-afro-cuban-poetry"],
+    whyItMatters: "Santería and Palo Monte are living proof of Ortiz's transculturación in action — not a historical relic, but a religious practice still shaping Cuban daily life, music, and public art today, most visibly at Callejón de Hamel."
+  },
+  confidence: "verify", confidenceNotes: "Core saint/orisha pairings are well documented; the history of state policy toward these religions is simplified here and varies by source and period.",
+  wikimedia: { searchTerm: "Santería orisha altar Cuba", confidence: "verify" },
+  links: [],
+  videos: []
+},
 {
   id: "icaic-founded-1959",
   title: "ICAIC (Cuban Film Institute) Founded",
@@ -1077,7 +1131,7 @@ const EVENTS = [
   isFunFact: false,
   summary: "Poet Heberto Padilla is arrested, pressured into a written self-criticism while imprisoned, and forced to publicly recant before Cuba's writers' union — a scripted confession that shocks and alienates many of the Revolution's international intellectual allies.",
   details: {
-    context: "Padilla was arrested March 20, 1971, for his poetry collection Fuera del juego, which had won a prize but drawn official criticism. He signed a written 'self-criticism' on April 5 while still imprisoned, and hours after his April 25 release read a scripted public confession before UNEAC on April 27 — denouncing himself and even implicating friends. International figures including Jean-Paul Sartre, Mario Vargas Llosa, Julio Cortázar, and Susan Sontag signed open letters protesting the affair, permanently fracturing the Latin American literary left's united support for Cuba.",
+    context: "Padilla was arrested March 20, 1971, for his poetry collection Fuera del juego, which had won a prize but drawn official criticism. That collection opens with 'En tiempos difíciles' ('In Difficult Times' / 'In Hard Times'), a poem that lists everything demanded of a man — his hands, eyes, legs, heart — closing with the demand that he 'get moving, because in difficult times / this is, without a doubt, the decisive test.' Read against what happened to Padilla months later, its quiet irony about falling in line with History reads as strikingly prophetic. Padilla signed a written 'self-criticism' on April 5 while still imprisoned, and hours after his April 25 release read a scripted public confession before UNEAC on April 27 — denouncing himself and even implicating friends. International figures including Jean-Paul Sartre, Mario Vargas Llosa, Julio Cortázar, and Susan Sontag signed open letters protesting the affair, permanently fracturing the Latin American literary left's united support for Cuba.",
     connections: ["words-to-intellectuals-1961", "uneac-founded-1961", "nueva-trova-silvio-rodriguez"],
     whyItMatters: "The Padilla Affair is widely seen as the moment Cuba's international intellectual honeymoon ended — a pivotal case study in the tension between revolutionary politics and artistic freedom."
   },
@@ -1117,7 +1171,7 @@ const EVENTS = [
   isFunFact: false,
   summary: "A CIA-organized force of Cuban exiles lands at the Bay of Pigs intending to spark a popular uprising against Castro; the invasion collapses within days.",
   details: {
-    context: "Planned under Eisenhower and launched under Kennedy, the invasion badly miscalculated Cuban popular support for the exiles and Castro's military response. Its failure was a major early embarrassment for the new Kennedy administration and pushed Cuba further toward the Soviet Union.",
+    context: "Planned under Eisenhower and launched under Kennedy, the invasion badly miscalculated Cuban popular support for the exiles and Castro's military response. Its failure was a major early embarrassment for the new Kennedy administration and pushed Cuba further toward the Soviet Union. The roughly 1,500-man CIA-trained exile invasion force is remembered by its military designation, Brigade 2506 — named for the ID number of a trainee who died in a pre-invasion accident. Surviving members were ransomed back to the U.S. in December 1962 in exchange for food and medical aid.",
     connections: ["socialist-declaration-1961", "cuban-missile-crisis-1962"],
     whyItMatters: "It's a foundational episode in the pattern of U.S. covert action against Cuba that continues through the following entries."
   },
@@ -1135,7 +1189,7 @@ const EVENTS = [
   isFunFact: false,
   summary: "The United States formalizes a comprehensive trade embargo against Cuba, building on earlier partial sanctions from 1960.",
   details: {
-    context: "The embargo (called the 'bloqueo' — blockade — in Cuba) would be tightened and loosened at various points over the following six decades, remaining, in modified form, in effect today.",
+    context: "The embargo (called the 'bloqueo' — blockade — in Cuba) would be tightened and loosened at various points over the following six decades, remaining, in modified form, in effect today. Its reach extends beyond direct trade: for decades it has barred the export to Cuba of foreign-made goods and technology containing more than 10 percent U.S.-origin components, extending its effect to third-country manufacturers. The Foreign Assistance Act of 1961 supplied part of the legal scaffolding, authorizing the president to impose a trade embargo and, via the later Hickenlooper Amendment, tying U.S. foreign aid decisions to how other countries responded to Cuba's uncompensated nationalizations.",
     connections: ["nationalization-us-industries-1960", "special-period-1991"],
     whyItMatters: "The embargo's economic impact is one of the most contested and enduring topics in any Cuba course — central to nearly every subsequent era on this timeline."
   },
@@ -1171,7 +1225,7 @@ const EVENTS = [
   isFunFact: false,
   summary: "The discovery of Soviet nuclear missiles in Cuba brings the U.S. and USSR to the brink of nuclear war during a tense 13-day standoff, resolved by a secret U.S.-Soviet agreement.",
   details: {
-    context: "The crisis ended with the Soviets withdrawing their missiles in exchange for a public U.S. pledge not to invade Cuba and a secret agreement to remove U.S. missiles from Turkey. Cuba itself was notably sidelined from the negotiations that resolved a crisis unfolding on its own soil.",
+    context: "In his October 22 televised address announcing the crisis, Kennedy warned that the Soviet medium- and intermediate-range missiles in Cuba could strike targets 'as far north as Hudson Bay, Canada, and as far south as Lima, Peru' — a line meant to underscore that this was a hemispheric threat, not just one to Florida. The crisis ended with the Soviets withdrawing their missiles in exchange for a public U.S. pledge not to invade Cuba and a secret agreement to remove U.S. missiles from Turkey. Cuba itself was notably sidelined from the negotiations that resolved a crisis unfolding on its own soil — a point underscored when Castro, furious at not being consulted, issued his own 'Five Points' on October 28, demanding an end to the U.S. embargo, subversive activities, air and naval incursions, and the U.S. presence at Guantánamo before he'd trust any non-invasion pledge. Washington rejected all five.",
     connections: ["marxist-leninist-declaration-1961", "us-embargo-1962"],
     whyItMatters: "It's the closest the Cold War came to direct nuclear conflict — and, once again, a moment where major decisions about Cuba's fate were made largely without Cuban input."
   },
@@ -1189,7 +1243,7 @@ const EVENTS = [
   isFunFact: false,
   summary: "Fearing Communist indoctrination of their children, over 14,000 Cuban parents send their unaccompanied minors to the United States, facilitated quietly by the Catholic Welfare Bureau in Miami.",
   details: {
-    context: "The program ran from the first arrivals on December 26, 1960, until the Missile Crisis effectively cut off further flights in October 1962. Children ranged from age 3 to 16; many were not reunited with their parents for years, and some never were. It remains the largest recorded child refugee movement in the Western Hemisphere.",
+    context: "The program ran from the first arrivals on December 26, 1960, until the Missile Crisis effectively cut off further flights in October 1962. Children ranged from age 3 to 16; many were not reunited with their parents for years, and some never were. It remains the largest recorded child refugee movement in the Western Hemisphere. 'Operation Pedro Pan' is technically the colloquial name for the airlift itself; roughly half the children had relatives already in the U.S. to take them in, while the rest were placed through a separate, longer-running welfare structure called the (Unaccompanied) Cuban Children's Program, which continued housing and placing children with foster families and institutions into the early 1980s, long after the original airlift had ended.",
     connections: ["us-embargo-1962", "elian-gonzalez-crisis"],
     whyItMatters: "It's a deeply personal, human-scale counterpart to the geopolitics of the Missile Crisis and embargo — central to understanding the Cuban exile community's formation and its lasting trauma."
   },
@@ -1236,6 +1290,116 @@ const EVENTS = [
 },
 
 // ---------------- ERA 8: Post-Revolutionary / Contemporary Cuba ----------------
+{
+  id: "cuban-adjustment-act-1966",
+  title: "Cuban Adjustment Act",
+  date: "1966-11-02", dateDisplay: "November 2, 1966",
+  era: "post-revolutionary-contemporary",
+  readingTags: ["Post-Revolutionary / Contemporary Cuba — exile and diaspora"],
+  isFunFact: false,
+  summary: "Congress grants Cubans a uniquely fast path to U.S. permanent residency, letting anyone who reached the U.S. after January 1, 1959 apply for a green card after just one year, without returning to Cuba to get a visa.",
+  details: {
+    context: "Ordinary U.S. immigration law would have required Cuban arrivals to return home for a visa interview — obviously unworkable for people fleeing the government there. The Act let them 'adjust' status from within the U.S. instead. Its scope narrowed considerably in 1995, when the Clinton administration's 'wet foot, dry foot' policy limited its benefits to Cubans who physically reached U.S. soil, turning back those intercepted at sea. That policy itself was ended in January 2017, though the underlying 1966 Act remains on the books.",
+    connections: ["mariel-boatlift-1980", "balseros-crisis-1994"],
+    whyItMatters: "No other nationality has ever had a comparable standing path to U.S. residency — a direct legal legacy of Cold War politics that still shapes Cuban migration today, even in modified form."
+  },
+  confidence: "high", confidenceNotes: "Well-documented law; later policy modifications (1995, 2017) are simplified here.",
+  wikimedia: { searchTerm: "Cuban refugees Miami 1960s", confidence: "verify" },
+  links: [],
+  videos: []
+},
+{
+  id: "cuba-exile-terrorism-coru-1976",
+  title: "CORU and the Bombing of Cubana Flight 455",
+  date: "1976-10-06", dateDisplay: "1976",
+  era: "post-revolutionary-contemporary",
+  readingTags: ["Post-Revolutionary / Contemporary Cuba — exile and diaspora"],
+  isFunFact: false,
+  summary: "Militant exiles Orlando Bosch and Luis Posada Carriles help found CORU, an anti-Castro umbrella group tied to dozens of 1976 bombings — including the mid-air bombing of a Cuban airliner that killed all 73 people aboard.",
+  details: {
+    context: "CORU (Coordination of United Revolutionary Organizations) formed in the Dominican Republic in June 1976 and was linked by the FBI to over 50 attacks that year alone, including the assassination of former Chilean diplomat Orlando Letelier in Washington, D.C. On October 6, 1976, bombs planted on Cubana de Aviación Flight 455 killed all 73 people aboard, including Cuba's entire 1975 national fencing team. Two operatives employed by Posada were convicted; Bosch was acquitted in Venezuela and later lived in Miami until his death in 2011, while Posada was never successfully prosecuted for the bombing and died in the U.S. in 2018.",
+    connections: ["cuban-adjustment-act-1966", "el-dialogo-1978"],
+    whyItMatters: "It's an uncomfortable but necessary counterweight to a purely sympathetic reading of the exile community — a reminder that anti-Castro exile politics included a real campaign of violence, not just lobbying and cultural nostalgia."
+  },
+  confidence: "high", confidenceNotes: "Well documented via declassified U.S. records and court proceedings; some casualty/attack-count details vary slightly by source.",
+  wikimedia: { searchTerm: "Cubana de Aviación Flight 455", confidence: "verify" },
+  links: [],
+  videos: []
+},
+{
+  id: "el-dialogo-1978",
+  title: "El Diálogo",
+  date: "1978-11-01", dateDisplay: "November–December 1978",
+  era: "post-revolutionary-contemporary",
+  readingTags: ["Post-Revolutionary / Contemporary Cuba — exile and diaspora"],
+  isFunFact: false,
+  summary: "Seventy-five Cuban exiles negotiate directly with the Castro government for the first time, winning the release of political prisoners and the right for exiles to visit the island — while Castro publicly drops the epithet 'gusano' (worm) for 'the Cuban community abroad.'",
+  details: {
+    context: "Encouraged by the Carter administration's human-rights-focused diplomacy, the 'Committee of 75' held two rounds of talks with Cuban officials. The result let some 100,000 exiles visit Cuba by 1979 for the first time since leaving — an emotionally fraught homecoming for many. The dialogue was bitterly controversial within the exile community itself; participants ('dialogueros') faced ostracism and, in some cases, violent reprisals from hardline opponents.",
+    connections: ["cuba-exile-terrorism-coru-1976", "cuban-adjustment-act-1966"],
+    whyItMatters: "It's an early preview of the same argument that recurs throughout later U.S.-Cuba relations, including the 2014 Thaw: does engagement help ordinary Cubans, or does it legitimize the government at their expense? El Diálogo split the exile community over exactly that question."
+  },
+  confidence: "verify", confidenceNotes: "Broad outcomes are well documented; exact participant numbers and visit figures vary by source.",
+  wikimedia: { searchTerm: "Cuban exiles Havana 1979 visit", confidence: "verify" },
+  links: [],
+  videos: []
+},
+{
+  id: "canf-founded-1981",
+  title: "Cuban American National Foundation Founded",
+  date: "1981-01-01", dateDisplay: "1981",
+  era: "post-revolutionary-contemporary",
+  readingTags: ["Post-Revolutionary / Contemporary Cuba — exile and diaspora"],
+  isFunFact: false,
+  summary: "Jorge Mas Canosa and other exile businessmen found CANF, modeled on the pro-Israel lobby AIPAC, quickly becoming one of the most powerful ethnic lobbying organizations in U.S. politics and a driving force behind hardline U.S. Cuba policy for the next two decades.",
+  details: {
+    context: "Founded with encouragement from the incoming Reagan administration, CANF combined campaign contributions with direct policy advocacy to shape U.S. Cuba policy from the Reagan years through the 1990s, including pushing for both Radio and TV Martí and the 1996 Helms-Burton Act tightening the embargo. Its influence waned somewhat after Mas Canosa's death in 1997 and internal splits over how hardline a stance to take.",
+    connections: ["radio-marti-1985", "el-dialogo-1978"],
+    whyItMatters: "For roughly two decades, U.S. Cuba policy can't be fully explained without CANF — a textbook case of how a single, well-organized diaspora lobbying group can shape a bilateral relationship."
+  },
+  confidence: "high", confidenceNotes: "Founding year and general trajectory are well documented.",
+  wikimedia: { searchTerm: "Jorge Mas Canosa", confidence: "verify" },
+  links: [],
+  videos: []
+},
+{
+  id: "radio-marti-1985",
+  title: "Radio Martí Begins Broadcasting",
+  date: "1985-05-20", dateDisplay: "May 20, 1985",
+  era: "post-revolutionary-contemporary",
+  readingTags: ["Post-Revolutionary / Contemporary Cuba — exile and diaspora"],
+  isFunFact: false,
+  summary: "The U.S. government launches Radio Martí, a Voice of America-style station beaming pro-democracy and anti-Castro programming into Cuba, deliberately timed to the anniversary of Cuba's 1902 independence.",
+  details: {
+    context: "Pushed for years by Jorge Mas Canosa and approved by Congress in 1983, the station (later joined by TV Martí in 1990) broadcasts from Florida under the name of José Martí — a pointed choice, claiming the independence hero's legacy against the government that also claims him. Cuba responded to the 1985 launch by jamming the signal and suspending an existing U.S. immigration agreement; Cuban transmitters briefly retaliated by disrupting U.S. AM radio stations.",
+    connections: ["canf-founded-1981"],
+    whyItMatters: "Both governments claiming José Martí as their own — one via Radio Martí, the other via official state ideology — is a vivid illustration of how contested Cuban national symbols remain even a century after independence."
+  },
+  confidence: "high", confidenceNotes: "Well-documented launch date and context.",
+  wikimedia: { searchTerm: "Radio Martí broadcasting", confidence: "verify" },
+  links: [],
+  videos: []
+},
+{
+  id: "yoani-sanchez-generacion-y-2007",
+  title: "Yoani Sánchez Launches \"Generación Y\"",
+  date: "2007-04-01", dateDisplay: "2007",
+  era: "post-revolutionary-contemporary",
+  readingTags: ["Post-Revolutionary / Contemporary Cuba"],
+  isFunFact: true,
+  summary: "Philologist Yoani Sánchez starts the blog Generación Y from Havana, offering an unfiltered, often wry look at daily life under scarcity and censorship — smuggling posts out by email since she couldn't reliably get online from inside Cuba.",
+  details: {
+    context: "With limited, expensive internet access on the island, Sánchez emailed her posts to friends abroad, who published them for her — a workaround that became its own story about information control in Cuba. The blog's name plays on a generation of Cubans, herself included, given names starting with 'Y' (a fashion tied to Cuba's Soviet-era ties). Named one of Time's 100 most influential people in 2008, she later launched the independent outlet 14ymedio in 2014. Her essay 'Cow Suicide' ('Suicidio de una vaca'), assigned in some versions of this course, uses the absurdity of a Cuban law once treating cattle slaughter as a more serious crime than killing a person to illustrate the everyday absurdities of scarcity-era Cuban bureaucracy.",
+    connections: ["special-period-1991"],
+    whyItMatters: "Sánchez's blog marks a genuine shift in who gets to narrate Cuban daily life to the outside world — not foreign journalists or state media, but an ordinary Cuban writing around, rather than through, official channels."
+  },
+  confidence: "verify", confidenceNotes: "Blog launch year and core biography are well documented; the summary of 'Cow Suicide' reflects the essay's well-known premise but should be checked against the specific translation assigned in your course.",
+  wikimedia: { searchTerm: "Yoani Sánchez blogger Cuba", confidence: "verify" },
+  links: [
+    { label: "Generation Y — English translation of Sánchez's blog", url: "https://generacionyen.wordpress.com/", confidence: "verify" }
+  ],
+  videos: []
+},
 {
   id: "special-period-1991",
   title: "Special Period Begins",
@@ -1479,6 +1643,23 @@ const QUIZZES = {
       options: ["Acculturation", "Mestizaje", "Transculturación", "Criollismo"],
       correct: 2,
       explanation: "Ortiz proposed 'transculturación' to capture a two-way process of cultural loss and creation, not simple one-way absorption."
+    },
+    {
+      q: "How did Columbus describe Cuba in his journal after landing in 1492?",
+      options: ["As a small, unremarkable island", "As the mainland of Asia (Cipangu)", "As uninhabited land", "As part of Hispaniola"],
+      correct: 1,
+      explanation: "Columbus believed Cuba was the edge of the Asian mainland described by Marco Polo — a belief he later forced his own crew to swear to under oath."
+    },
+    {
+      q: "What is ajiaco, and how did Fernando Ortiz use it?",
+      options: [
+        "A dance; Ortiz used it to describe Afro-Cuban music",
+        "A stew; Ortiz used it as a metaphor for Cuban culture as constant mixture",
+        "A religious ritual; Ortiz used it to describe Santería",
+        "A sugar byproduct; Ortiz used it to describe the plantation economy"
+      ],
+      correct: 1,
+      explanation: "In 'Los factores humanos de la cubanidad,' Ortiz described Cuba as an ajiaco — a stew that never stops cooking as new ingredients are added, a companion image to his concept of transculturación."
     }
   ],
   "sugar-slavery-colonialism": [
@@ -1535,6 +1716,12 @@ const QUIZZES = {
       options: ["January 1, 1959", "April 16, 1961", "December 2, 1961", "October 1962"],
       correct: 2,
       explanation: "The April 16 declaration named the Revolution socialist; the more specific 'Marxist-Leninist' declaration came separately, on December 2, 1961."
+    },
+    {
+      q: "What prompted Castro to announce the Committees for the Defense of the Revolution (CDRs) in September 1960?",
+      options: ["A Soviet request", "Counterrevolutionary bombs near a Havana rally", "The Bay of Pigs invasion", "The literacy campaign's launch"],
+      correct: 1,
+      explanation: "After bombs went off near a mass rally, Castro announced a 'committee of revolutionary vigilance' on every block — the origin of the CDRs."
     }
   ],
   "culture-revolution": [
@@ -1549,6 +1736,18 @@ const QUIZZES = {
       options: ["\"History will absolve me\"", "\"Within the Revolution, everything; against the Revolution, nothing\"", "\"Patria o Muerte\"", "\"Cuba sí, Yanqui no\""],
       correct: 1,
       explanation: "The line drew a deliberately ambiguous boundary around acceptable artistic expression under the Revolution."
+    },
+    {
+      q: "In Nicolás Guillén's poem \"Caña\" (\"Sugarcane\"), who or what stands \"over the canefield\"?",
+      options: ["The Black laborer", "The Yankee", "The earth", "The Spanish colonizer"],
+      correct: 1,
+      explanation: "The poem's four short images place the Black laborer beside the cane, the Yankee above it, the earth beneath it, and blood being lost — tying the sugar economy directly to race and foreign ownership."
+    },
+    {
+      q: "In Santería, which Catholic figure is used to venerate the orisha Yemayá?",
+      options: ["Our Lady of Charity", "Saint Barbara", "Our Lady of Regla", "Saint Lazarus"],
+      correct: 2,
+      explanation: "Yemayá, orisha of the sea, is venerated through Our Lady of Regla; Ochún, orisha of rivers and love, is venerated through Cuba's patron saint, Our Lady of Charity."
     }
   ],
   "revolution-and-world": [
@@ -1563,6 +1762,34 @@ const QUIZZES = {
       options: ["About 1,400", "About 14,000", "About 140,000", "About 400"],
       correct: 1,
       explanation: "Over 14,000 children were sent to the U.S. by parents fearing Communist indoctrination — the largest recorded child refugee movement in the Western Hemisphere."
+    },
+    {
+      q: "What's the difference between \"Operation Pedro Pan\" and the Cuban Children's Program?",
+      options: [
+        "They're two names for the exact same thing",
+        "Pedro Pan was the children's airlift itself; the Cuban Children's Program was the longer-running welfare structure that housed and placed children without family already in the U.S.",
+        "Pedro Pan was Catholic-run; the Cuban Children's Program was entirely secular and unrelated",
+        "The Cuban Children's Program came decades later, in the 1990s"
+      ],
+      correct: 1,
+      explanation: "Pedro Pan is the colloquial name for the 1960-62 airlift; the Cuban Children's Program was the welfare/foster-care system that kept operating into the early 1980s for children without relatives to take them in."
+    },
+    {
+      q: "In his October 22, 1962 speech, Kennedy said Soviet missiles in Cuba could reach as far as which two cities?",
+      options: [
+        "New York and Los Angeles",
+        "Hudson Bay, Canada and Lima, Peru",
+        "Mexico City and Ottawa",
+        "Washington, D.C. and Miami only"
+      ],
+      correct: 1,
+      explanation: "Kennedy framed the missiles as a hemispheric threat, warning they could strike 'as far north as Hudson Bay, Canada, and as far south as Lima, Peru.'"
+    },
+    {
+      q: "What was one of Castro's \"Five Points\" demanded on October 28, 1962, before he'd trust a U.S. non-invasion pledge?",
+      options: ["Soviet troops stationed permanently in Cuba", "U.S. withdrawal from Guantánamo Bay", "Cuban membership in NATO", "A U.S. apology for the Bay of Pigs"],
+      correct: 1,
+      explanation: "Castro's five conditions included ending the embargo, subversive activities, air/naval incursions, and piratical attacks — and returning the Guantánamo naval base to Cuba. The U.S. rejected all five."
     }
   ],
   "post-revolutionary-contemporary": [
@@ -1577,6 +1804,23 @@ const QUIZZES = {
       options: ["The U.S. embargo alone", "A hurricane", "The collapse of the Soviet Union", "The Mariel boatlift"],
       correct: 2,
       explanation: "The USSR's 1991 collapse ended Soviet trade subsidies almost overnight, triggering severe shortages."
+    },
+    {
+      q: "What made the 1966 Cuban Adjustment Act unusual compared to normal U.S. immigration law?",
+      options: [
+        "It let Cubans in the U.S. apply for permanent residency after just one year, without returning to Cuba for a visa",
+        "It banned all Cuban immigration to the U.S.",
+        "It only applied to children",
+        "It required a 10-year wait before applying for residency"
+      ],
+      correct: 0,
+      explanation: "Ordinary immigration law would have required a visa interview back in Cuba — politically unworkable for people fleeing that government, so the Act let them adjust status from inside the U.S. instead."
+    },
+    {
+      q: "What organization did Jorge Mas Canosa found in 1981, modeled on the pro-Israel lobby AIPAC?",
+      options: ["El Diálogo", "Radio Martí", "The Cuban American National Foundation (CANF)", "CORU"],
+      correct: 2,
+      explanation: "CANF became one of the most influential ethnic lobbying organizations in U.S. politics, shaping Cuba policy for roughly two decades."
     }
   ]
 };

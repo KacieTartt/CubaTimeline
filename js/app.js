@@ -322,6 +322,7 @@
     const matches = EVENTS.filter(e =>
       e.title.toLowerCase().includes(q) ||
       e.summary.toLowerCase().includes(q) ||
+      e.details.context.toLowerCase().includes(q) ||
       e.readingTags.some(t => t.toLowerCase().includes(q))
     ).slice(0, 8);
 

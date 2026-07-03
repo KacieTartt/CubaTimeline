@@ -85,7 +85,7 @@ const EVENTS = [
     whyItMatters: "These settlements are the direct ancestors of Cuba's modern cities, and the encomienda system set the template for the coerced-labor economy that sugar and slavery would later scale up dramatically."
   },
   confidence: "high", confidenceNotes: "General dates well established; exact founding dates of all seven original villas vary slightly by source.",
-  wikimedia: { searchTerm: "Diego Velázquez de Cuéllar conquistador", confidence: "high" },
+  wikimedia: { searchTerm: "\"Velázquez de Cuéllar\" governor Cuba portrait", confidence: "verify" },
   links: [],
   videos: []
 },

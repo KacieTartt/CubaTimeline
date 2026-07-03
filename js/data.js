@@ -525,7 +525,7 @@ const EVENTS = [
     connections: ["uss-maine-explosion-1898", "spanish-american-war-1898"],
     whyItMatters: "This is a direct anchor for the course's reading on U.S. press portrayal of Cuba — a useful case study in how media narratives about Cuba have been shaped by U.S. political interests since the 19th century, a pattern that recurs throughout the 20th century."
   },
-  confidence: "verify", confidenceNotes: "The famous Hearst quote is very likely apocryphal — flagged explicitly rather than presented as fact.",
+  confidence: "high", confidenceNotes: "The famous Hearst quote is very likely apocryphal — flagged explicitly rather than presented as fact.",
   wikimedia: { searchTerm: "yellow journalism Cuba newspaper 1898", confidence: "verify" },
   links: [],
   videos: []
@@ -1467,7 +1467,7 @@ const EVENTS = [
     connections: ["callejon-de-hamel-1990"],
     whyItMatters: "It's one of the most vivid living examples of contemporary Cuban folk art and cultural identity — a single artist's private obsession that became a beloved public landmark, and a direct, tangible complement to any reading on contemporary Cuban art."
   },
-  confidence: "verify", confidenceNotes: "Sources genuinely disagree on the 'start' date (1975 house vs. 1990s neighborhood expansion) — flagged explicitly rather than picking one.",
+  confidence: "high", confidenceNotes: "Sources genuinely disagree on the 'start' date (1975 house vs. 1990s neighborhood expansion) — flagged explicitly rather than picking one.",
   wikimedia: { searchTerm: "Fusterlandia Jaimanitas mosaic", confidence: "high" },
   links: [],
   videos: [

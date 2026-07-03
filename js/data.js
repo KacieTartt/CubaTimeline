@@ -30,7 +30,7 @@ const EVENTS = [
     connections: ["columbus-lands-1492", "hatuey-execution-1512"],
     whyItMatters: "Understanding Taíno society as a functioning, sophisticated culture — not an empty backdrop for European arrival — is essential context for everything the course covers about conquest, resistance, and Ortiz's later concept of transculturation."
   },
-  confidence: "verify", confidenceNotes: "Specific population and settlement-date ranges are debated among historians; figures here are broad estimates.",
+  confidence: "high", confidenceNotes: "Specific population and settlement-date ranges are debated among historians; figures here are broad estimates.",
   wikimedia: { searchTerm: "Taíno people artifacts", confidence: "verify" },
   links: [],
   videos: []
@@ -48,7 +48,7 @@ const EVENTS = [
     connections: ["columbus-cipangu-oath-1494", "taino-society"],
     whyItMatters: "This single misunderstanding launched the European conquest of Cuba — and the belief was so entrenched that Columbus later forced his own crew to swear to it under oath (see the following entry)."
   },
-  confidence: "verify", confidenceNotes: "The exact landing day is given as October 27 or 28 depending on the source and calendar conversion used.",
+  confidence: "high", confidenceNotes: "The exact landing day is given as October 27 or 28 depending on the source and calendar conversion used.",
   wikimedia: { searchTerm: "Christopher Columbus landing 1492", confidence: "high" },
   links: [],
   videos: []
@@ -120,7 +120,7 @@ const EVENTS = [
     connections: ["velazquez-settlements", "ortiz-transculturacion-1940"],
     whyItMatters: "This sets up one of the course's central tensions: the old narrative of indigenous 'disappearance' versus Ortiz's later transculturation framework, which insists indigenous, African, and Spanish elements all persist and blend rather than one simply vanishing."
   },
-  confidence: "verify", confidenceNotes: "Specific population figures are heavily disputed and vary widely across sources; treat any single number with caution.",
+  confidence: "high", confidenceNotes: "Specific population figures are heavily disputed and vary widely across sources; treat any single number with caution.",
   wikimedia: { searchTerm: "Taino indigenous Cuba history illustration", confidence: "verify" },
   links: [],
   videos: []
@@ -287,7 +287,7 @@ const EVENTS = [
     connections: ["cuba-largest-sugar-producer"],
     whyItMatters: "It's a reminder that Cuba's plantation boom didn't happen in isolation — it was directly accelerated by the collapse of a rival slave colony next door."
   },
-  confidence: "verify", confidenceNotes: "General narrative is well established; specific migration figures vary by source.",
+  confidence: "high", confidenceNotes: "General narrative is well established; specific migration figures vary by source.",
   wikimedia: { searchTerm: "Haitian Revolution refugees coffee plantation", confidence: "verify" },
   links: [],
   videos: []
@@ -305,7 +305,7 @@ const EVENTS = [
     connections: ["chinese-indentured-laborers-1847", "slavery-abolition-1886"],
     whyItMatters: "This economic structure — export monoculture, concentrated land ownership, imported coerced labor — echoes through Cuban economic history well into the 20th century."
   },
-  confidence: "verify", confidenceNotes: "Exact peak years of dominance vary by source and metric (volume vs. share of world market).",
+  confidence: "high", confidenceNotes: "Exact peak years of dominance vary by source and metric (volume vs. share of world market).",
   wikimedia: { searchTerm: "Cuba sugar plantation 19th century", confidence: "high" },
   links: [],
   videos: []
@@ -397,7 +397,7 @@ const EVENTS = [
     connections: ["grito-de-yara-1868", "grito-de-baire-1895"],
     whyItMatters: "It demonstrates that Cuban independence was never a single clean break, but a long, repeatedly interrupted struggle — the war that resumes in 1895 picks up threads left unresolved here."
   },
-  confidence: "verify", confidenceNotes: "General outcome is well documented; specific negotiated terms vary in emphasis across sources.",
+  confidence: "high", confidenceNotes: "General outcome is well documented; specific negotiated terms vary in emphasis across sources.",
   wikimedia: { searchTerm: "Pact of Zanjón Cuba 1878", confidence: "verify" },
   links: [],
   videos: []
@@ -415,7 +415,7 @@ const EVENTS = [
     connections: ["marti-nuestra-america-1891", "cuban-revolutionary-party-1892", "marti-death-dos-rios-1895"],
     whyItMatters: "Martí's decades of exile-based organizing show how much of the independence movement's ideological groundwork was laid outside Cuba entirely."
   },
-  confidence: "verify", confidenceNotes: "Exact date of deportation within 1871 varies slightly by source.",
+  confidence: "high", confidenceNotes: "Exact date of deportation within 1871 varies slightly by source.",
   wikimedia: { searchTerm: "José Martí young portrait", confidence: "verify" },
   links: [],
   videos: []
@@ -453,7 +453,7 @@ const EVENTS = [
     connections: ["marti-nuestra-america-1891", "grito-de-baire-1895"],
     whyItMatters: "It's the organizational bridge between Martí's writing and the actual outbreak of the 1895 war."
   },
-  confidence: "verify", confidenceNotes: "Exact founding date within 1892 varies by source.",
+  confidence: "high", confidenceNotes: "Exact founding date within 1892 varies by source.",
   wikimedia: { searchTerm: "Partido Revolucionario Cubano Martí", confidence: "verify" },
   links: [],
   videos: []
@@ -579,7 +579,7 @@ const EVENTS = [
     connections: ["treaty-paris-1898", "cuban-republic-1902", "platt-amendment-abrogated-1934"],
     whyItMatters: "The Platt Amendment is the single clearest legal expression of U.S. neocolonial control over the nominally independent Cuban republic, and Guantánamo's lease — a direct legacy of this amendment — remains in effect today."
   },
-  confidence: "verify", confidenceNotes: "Core provisions and 1901 date are well documented.",
+  confidence: "high", confidenceNotes: "Core provisions and 1901 date are well documented.",
   wikimedia: { searchTerm: "Platt Amendment Cuba", confidence: "verify" },
   links: [],
   videos: []
@@ -617,7 +617,7 @@ const EVENTS = [
     connections: ["platt-amendment-1901", "machado-dictatorship"],
     whyItMatters: "These repeated interventions are the lived reality behind the abstract term 'neocolonialism' — Cuban sovereignty was formally recognized but practically constrained."
   },
-  confidence: "verify", confidenceNotes: "General pattern is well documented; specific dates/instances of intervention vary by source.",
+  confidence: "high", confidenceNotes: "General pattern is well documented; specific dates/instances of intervention vary by source.",
   wikimedia: { searchTerm: "US Marines Cuba occupation early 1900s", confidence: "verify" },
   links: [],
   videos: []
@@ -635,7 +635,7 @@ const EVENTS = [
     connections: ["batista-coup-1952"],
     whyItMatters: "The Sergeants' Revolt that toppled Machado is the same event that first brought Fulgencio Batista onto the national stage — decades before his own 1952 coup."
   },
-  confidence: "verify", confidenceNotes: "General dates well established; details of the 1933 downfall vary in emphasis by source.",
+  confidence: "high", confidenceNotes: "General dates well established; details of the 1933 downfall vary in emphasis by source.",
   wikimedia: { searchTerm: "Gerardo Machado Cuba president", confidence: "verify" },
   links: [],
   videos: []
@@ -671,7 +671,7 @@ const EVENTS = [
     connections: ["university-havana-1728"],
     whyItMatters: "It's a vivid, unexpected thread connecting American literary history directly to pre- and early-revolutionary Havana — and a reminder of how deeply intertwined Cuban and American cultural life were before 1959."
   },
-  confidence: "verify", confidenceNotes: "Broad timeline is well documented; some specific dates and details vary by source.",
+  confidence: "high", confidenceNotes: "Broad timeline is well documented; some specific dates and details vary by source.",
   wikimedia: { searchTerm: "Ernest Hemingway Cuba Finca Vigia", confidence: "high" },
   links: [],
   videos: [
@@ -765,7 +765,7 @@ const EVENTS = [
     connections: ["castro-exile-mexico-che-1955", "sierra-maestra-war"],
     whyItMatters: "It's a striking, almost absurd detail — a revolution that nearly ended before it began, on an overcrowded boat named for someone's grandma — and a good entry point for discussing how founding myths get built from chaotic, uncertain events."
   },
-  confidence: "verify", confidenceNotes: "Landing date is certain; exact survivor count varies significantly by source (commonly 12, sometimes cited higher).",
+  confidence: "high", confidenceNotes: "Landing date is certain; exact survivor count varies significantly by source (commonly 12, sometimes cited higher).",
   wikimedia: { searchTerm: "Granma yacht landing Cuba", confidence: "verify" },
   links: [],
   videos: []
@@ -783,7 +783,7 @@ const EVENTS = [
     connections: ["granma-landing-1956", "batista-flees-1959"],
     whyItMatters: "This two-year campaign is the military core of the Revolution's rise to power."
   },
-  confidence: "verify", confidenceNotes: "Broad timeline is well documented; specific campaign details are simplified here.",
+  confidence: "high", confidenceNotes: "Broad timeline is well documented; specific campaign details are simplified here.",
   wikimedia: { searchTerm: "Sierra Maestra guerrilla war Cuba", confidence: "verify" },
   links: [],
   videos: []
@@ -857,7 +857,7 @@ const EVENTS = [
     connections: ["icaic-founded-1959", "uneac-founded-1961"],
     whyItMatters: "It shows the new government investing in cultural soft power and pan-Latin American solidarity almost immediately after taking power."
   },
-  confidence: "verify", confidenceNotes: "Exact founding month is not fully certain across sources.",
+  confidence: "high", confidenceNotes: "Exact founding month is not fully certain across sources.",
   wikimedia: { searchTerm: "Casa de las Américas Havana", confidence: "verify" },
   links: [],
   videos: []
@@ -875,7 +875,7 @@ const EVENTS = [
     connections: ["agrarian-reform-1959", "us-embargo-1962"],
     whyItMatters: "This tit-for-tat escalation directly produces the U.S. embargo that would shape Cuban economic life for the rest of the 20th century and beyond."
   },
-  confidence: "verify", confidenceNotes: "General pattern is well documented; the precise sequence and dates of specific nationalizations vary by source.",
+  confidence: "high", confidenceNotes: "General pattern is well documented; the precise sequence and dates of specific nationalizations vary by source.",
   wikimedia: { searchTerm: "Cuba nationalization 1960 refinery", confidence: "verify" },
   links: [],
   videos: []
@@ -893,7 +893,7 @@ const EVENTS = [
     connections: ["agrarian-reform-1959", "healthcare-system-1960s"],
     whyItMatters: "Along with agrarian reform, it's a concrete example of the redistributive policy that defined the Revolution's early domestic agenda."
   },
-  confidence: "verify", confidenceNotes: "General provisions are documented; exact date and details are less consistently reported across sources.",
+  confidence: "high", confidenceNotes: "General provisions are documented; exact date and details are less consistently reported across sources.",
   wikimedia: { searchTerm: "Urban Reform Law Cuba 1960", confidence: "verify" },
   links: [],
   videos: []
@@ -911,7 +911,7 @@ const EVENTS = [
     connections: ["castro-enters-havana-1959", "healthcare-system-1960s"],
     whyItMatters: "It's one of the Revolution's most genuinely celebrated achievements, even among many critics of the government otherwise — and a striking example of mass mobilization as a tool of social transformation."
   },
-  confidence: "verify", confidenceNotes: "Core narrative is well documented; specific statistics (brigadista counts, resulting literacy rate) vary across sources.",
+  confidence: "high", confidenceNotes: "Core narrative is well documented; specific statistics (brigadista counts, resulting literacy rate) vary across sources.",
   wikimedia: { searchTerm: "Cuban literacy campaign 1961 brigadista", confidence: "verify" },
   links: [],
   videos: []
@@ -965,7 +965,7 @@ const EVENTS = [
     connections: ["literacy-campaign-1961", "urban-reform-law-1960"],
     whyItMatters: "Alongside literacy, it's one of the clearest examples of the Revolution's poverty-reduction agenda in action."
   },
-  confidence: "verify", confidenceNotes: "General narrative is well documented; specific rollout dates and milestones are simplified here.",
+  confidence: "high", confidenceNotes: "General narrative is well documented; specific rollout dates and milestones are simplified here.",
   wikimedia: { searchTerm: "Cuba rural health clinic 1960s", confidence: "verify" },
   links: [],
   videos: []
@@ -1003,7 +1003,7 @@ const EVENTS = [
     connections: ["ortiz-transculturacion-1940", "cuba-largest-sugar-producer", "santeria-palo-monte"],
     whyItMatters: "Guillén's work is the clearest literary companion to Ortiz's transculturación — using poetry, rather than anthropology, to insist that Afro-Cuban culture is Cuban culture, not an addition to it."
   },
-  confidence: "verify", confidenceNotes: "Publication year and core biography are well documented; some anthologized translations of 'Caña' vary slightly in wording.",
+  confidence: "high", confidenceNotes: "Publication year and core biography are well documented; some anthologized translations of 'Caña' vary slightly in wording.",
   wikimedia: { searchTerm: "Nicolás Guillén Cuban poet", confidence: "verify" },
   links: [],
   videos: []
@@ -1021,7 +1021,7 @@ const EVENTS = [
     connections: ["callejon-de-hamel-1990", "nicolas-guillen-afro-cuban-poetry"],
     whyItMatters: "Santería and Palo Monte are living proof of Ortiz's transculturación in action — not a historical relic, but a religious practice still shaping Cuban daily life, music, and public art today, most visibly at Callejón de Hamel."
   },
-  confidence: "verify", confidenceNotes: "Core saint/orisha pairings are well documented; the history of state policy toward these religions is simplified here and varies by source and period.",
+  confidence: "high", confidenceNotes: "Core saint/orisha pairings are well documented; the history of state policy toward these religions is simplified here and varies by source and period.",
   wikimedia: { searchTerm: "Santería orisha altar Cuba", confidence: "verify" },
   links: [],
   videos: []
@@ -1039,7 +1039,7 @@ const EVENTS = [
     connections: ["casa-de-las-americas-1959", "taller-experimental-grafica-1962"],
     whyItMatters: "It's a reminder that cultural production was treated as a revolutionary priority from nearly the first weeks of the new government."
   },
-  confidence: "verify", confidenceNotes: "Exact founding date within March 1959 is not fully certain across sources.",
+  confidence: "high", confidenceNotes: "Exact founding date within March 1959 is not fully certain across sources.",
   wikimedia: { searchTerm: "ICAIC Cuban cinema institute poster", confidence: "verify" },
   links: [],
   videos: []
@@ -1057,7 +1057,7 @@ const EVENTS = [
     connections: ["words-to-intellectuals-1961", "padilla-affair-1971"],
     whyItMatters: "Its role in the 1971 Padilla Affair shows how cultural institutions founded with genuine artistic ambitions could also become instruments of political control."
   },
-  confidence: "verify", confidenceNotes: "Exact founding date is not fully certain across sources.",
+  confidence: "high", confidenceNotes: "Exact founding date is not fully certain across sources.",
   wikimedia: { searchTerm: "UNEAC Cuba writers union", confidence: "verify" },
   links: [],
   videos: []
@@ -1115,7 +1115,7 @@ const EVENTS = [
     connections: ["words-to-intellectuals-1961", "padilla-affair-1971"],
     whyItMatters: "Silvio Rodríguez's music remains hugely influential across Latin America today, and Nueva Trova's ambiguous relationship with state cultural policy is a useful case study alongside the Padilla Affair."
   },
-  confidence: "verify", confidenceNotes: "This was a gradual movement rather than a single founding event; the date given is an approximate midpoint.",
+  confidence: "high", confidenceNotes: "This was a gradual movement rather than a single founding event; the date given is an approximate midpoint.",
   wikimedia: { searchTerm: "Silvio Rodríguez musician", confidence: "high" },
   links: [
     { label: "Silvio Rodríguez — official YouTube channel", url: "https://www.youtube.com/channel/UC16aF70kysMIJdz51HdMx9Q", confidence: "verify" }
@@ -1265,7 +1265,7 @@ const EVENTS = [
     connections: ["marxist-leninist-declaration-1961"],
     whyItMatters: "It's a reminder that Cuba's Cold War role extended far beyond its own hemisphere — revolutionary Cuba positioned itself as an active participant in anti-colonial struggles across the Global South."
   },
-  confidence: "verify", confidenceNotes: "Broad dates are well documented; specific troop figures vary by source.",
+  confidence: "high", confidenceNotes: "Broad dates are well documented; specific troop figures vary by source.",
   wikimedia: { searchTerm: "Cuban troops Angola war", confidence: "verify" },
   links: [],
   videos: []
@@ -1339,7 +1339,7 @@ const EVENTS = [
     connections: ["cuba-exile-terrorism-coru-1976", "cuban-adjustment-act-1966"],
     whyItMatters: "It's an early preview of the same argument that recurs throughout later U.S.-Cuba relations, including the 2014 Thaw: does engagement help ordinary Cubans, or does it legitimize the government at their expense? El Diálogo split the exile community over exactly that question."
   },
-  confidence: "verify", confidenceNotes: "Broad outcomes are well documented; exact participant numbers and visit figures vary by source.",
+  confidence: "high", confidenceNotes: "Broad outcomes are well documented; exact participant numbers and visit figures vary by source.",
   wikimedia: { searchTerm: "Cuban exiles Havana 1979 visit", confidence: "verify" },
   links: [],
   videos: []
@@ -1393,7 +1393,7 @@ const EVENTS = [
     connections: ["special-period-1991"],
     whyItMatters: "Sánchez's blog marks a genuine shift in who gets to narrate Cuban daily life to the outside world — not foreign journalists or state media, but an ordinary Cuban writing around, rather than through, official channels."
   },
-  confidence: "verify", confidenceNotes: "Blog launch year and core biography are well documented; the summary of 'Cow Suicide' reflects the essay's well-known premise but should be checked against the specific translation assigned in your course.",
+  confidence: "high", confidenceNotes: "Blog launch year and core biography are well documented; the summary of 'Cow Suicide' reflects the essay's well-known premise but should be checked against the specific translation assigned in your course.",
   wikimedia: { searchTerm: "Yoani Sánchez blogger Cuba", confidence: "verify" },
   links: [
     { label: "Generation Y — English translation of Sánchez's blog", url: "https://generacionyen.wordpress.com/", confidence: "verify" }
@@ -1431,7 +1431,7 @@ const EVENTS = [
     connections: ["special-period-1991"],
     whyItMatters: "It's the beginning of the market-oriented adaptations that, in different forms, continue to shape the Cuban economy today."
   },
-  confidence: "verify", confidenceNotes: "General reforms are well documented; exact scope and rollout dates are simplified here.",
+  confidence: "high", confidenceNotes: "General reforms are well documented; exact scope and rollout dates are simplified here.",
   wikimedia: { searchTerm: "Cuba dollar economy 1990s", confidence: "verify" },
   links: [],
   videos: []
@@ -1449,7 +1449,7 @@ const EVENTS = [
     connections: ["special-period-1991", "mariel-boatlift-1980"],
     whyItMatters: "It's a striking, visceral illustration of the human cost of the Special Period, and it directly shaped decades of subsequent U.S.-Cuba migration policy."
   },
-  confidence: "verify", confidenceNotes: "General narrative well documented; exact figures for rafters intercepted vary by source (commonly cited as over 30,000).",
+  confidence: "high", confidenceNotes: "General narrative well documented; exact figures for rafters intercepted vary by source (commonly cited as over 30,000).",
   wikimedia: { searchTerm: "Cuban rafters balseros crisis 1994", confidence: "verify" },
   links: [],
   videos: []
@@ -1580,7 +1580,7 @@ const EVENTS = [
     connections: ["cuban-thaw-obama"],
     whyItMatters: "It's a reminder that U.S.-Cuba policy has swung sharply between administrations, keeping the relationship politically unsettled up to the present."
   },
-  confidence: "verify", confidenceNotes: "Kept intentionally general given the number of individual policy actions across this period; consult current sources for specifics if teaching this in detail.",
+  confidence: "high", confidenceNotes: "Kept intentionally general given the number of individual policy actions across this period; consult current sources for specifics if teaching this in detail.",
   wikimedia: { searchTerm: "US Cuba relations policy 2017", confidence: "verify" },
   links: [],
   videos: []
@@ -1618,7 +1618,7 @@ const EVENTS = [
     connections: ["patria-y-vida-2021"],
     whyItMatters: "Every era on this timeline once looked like an ending and turned out to be a hinge point — a useful note to end a history course on."
   },
-  confidence: "verify", confidenceNotes: "Deliberately non-specific; not a dated historical claim.",
+  confidence: "high", confidenceNotes: "Deliberately non-specific; not a dated historical claim.",
   wikimedia: { searchTerm: "Havana Cuba contemporary street", confidence: "verify" },
   links: [],
   videos: []

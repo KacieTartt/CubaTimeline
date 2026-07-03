@@ -1,6 +1,6 @@
 # Cuba: An Interactive History Timeline
 
-A single-page, interactive timeline of Cuban history from 1492 to the present, built for UCF's Cuba history course. No build step, no dependencies — just HTML, CSS, and vanilla JavaScript.
+A single-page, interactive timeline of Cuban history from Pre-Columbian Cuba to the present, built for UCF's Cuba history course. No build step, no dependencies — just HTML, CSS, and vanilla JavaScript.
 
 ## Running it locally
 

@@ -434,7 +434,7 @@ const EVENTS = [
     whyItMatters: "\"Nuestra América\" remains a touchstone text across Latin American studies and directly anticipates later 20th-century arguments about cultural and economic dependency."
   },
   confidence: "high", confidenceNotes: "Publication dates in both cities are well documented.",
-  wikimedia: { searchTerm: "José Martí portrait 1890s", confidence: "high" },
+  wikimedia: { searchTerm: "José Martí", confidence: "verify" },
   links: [
     { label: "\"Nuestra América\" / \"Our America\" — English translation, Portal José Martí", url: "https://www.josemarti.cu/publicacion/nuestra-america-version-ingles/", confidence: "verify" }
   ],

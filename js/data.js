@@ -1340,7 +1340,7 @@ const EVENTS = [
     whyItMatters: "It's an early preview of the same argument that recurs throughout later U.S.-Cuba relations, including the 2014 Thaw: does engagement help ordinary Cubans, or does it legitimize the government at their expense? El Diálogo split the exile community over exactly that question."
   },
   confidence: "high", confidenceNotes: "Broad outcomes are well documented; exact participant numbers and visit figures vary by source.",
-  wikimedia: { searchTerm: "Cuban exile Miami 1970s community", confidence: "verify" },
+  wikimedia: { searchTerm: "Jimmy Carter 1978", confidence: "verify" },
   links: [],
   videos: []
 },

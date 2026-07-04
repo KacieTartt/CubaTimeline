@@ -1450,7 +1450,7 @@ const EVENTS = [
     whyItMatters: "It's a striking, visceral illustration of the human cost of the Special Period, and it directly shaped decades of subsequent U.S.-Cuba migration policy."
   },
   confidence: "high", confidenceNotes: "General narrative well documented; exact figures for rafters intercepted vary by source (commonly cited as over 30,000).",
-  wikimedia: { searchTerm: "Cuban rafters raft ocean", confidence: "verify" },
+  wikimedia: { searchTerm: "balseros cubanos", confidence: "verify" },
   links: [],
   videos: []
 },

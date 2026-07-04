@@ -139,7 +139,7 @@ const EVENTS = [
     whyItMatters: "Transculturación became one of the most influential concepts in Latin American cultural studies, and it's the analytical lens the course uses to read every other event on this timeline — not a simple story of conquest and loss, but of ongoing cultural synthesis."
   },
   confidence: "high", confidenceNotes: "Publication year and core argument are well documented.",
-  wikimedia: { searchTerm: "Fernando Ortiz Cuban anthropologist", confidence: "verify" },
+  wikimedia: { searchTerm: "Fernando Ortiz", confidence: "verify" },
   links: [
     { label: "Cuban Counterpoint: Tobacco and Sugar (English translation, Internet Archive)", url: "https://archive.org/details/cubancounterpoin0000orti", confidence: "verify" }
   ],

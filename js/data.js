@@ -1022,7 +1022,7 @@ const EVENTS = [
     whyItMatters: "Santería and Palo Monte are living proof of Ortiz's transculturación in action — not a historical relic, but a religious practice still shaping Cuban daily life, music, and public art today, most visibly at Callejón de Hamel."
   },
   confidence: "high", confidenceNotes: "Core saint/orisha pairings are well documented; the history of state policy toward these religions is simplified here and varies by source and period.",
-  wikimedia: { searchTerm: "Santería altar orishas", confidence: "verify" },
+  wikimedia: { searchTerm: "Santería", confidence: "verify" },
   links: [],
   videos: []
 },

@@ -984,7 +984,7 @@ const EVENTS = [
     whyItMatters: "The CDRs are a useful single case for the double-edged nature of many revolutionary institutions: genuinely delivering public-health and social infrastructure at massive scale, while also functioning as a tool of political monitoring down to the block level."
   },
   confidence: "high", confidenceNotes: "Founding date and origin story are well documented; membership figures are most solid for the specific years cited.",
-  wikimedia: { searchTerm: "Cuba CDR neighborhood mural", confidence: "verify" },
+  wikimedia: { searchTerm: "Comité de Defensa de la Revolución sign", confidence: "verify" },
   links: [],
   videos: []
 },

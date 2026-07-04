@@ -225,7 +225,7 @@ const EVENTS = [
   isFunFact: true,
   summary: "Dominican friars found the Real y Pontificia Universidad de San Gerónimo de la Habana — one of the oldest universities in the Americas and the first in the Caribbean.",
   details: {
-    context: "Originally housed in a Dominican convent in Old Havana with faculties in art, philosophy, theology, canon law, and medicine, the university secularized in 1842 and relocated to its present Vedado campus in 1902. It later became a hotbed of student activism, including Fidel Castro's own student days.",
+    context: "Originally housed in a Dominican convent in Old Havana with faculties in art, philosophy, theology, canon law, and medicine, the university secularized in 1842 and relocated to its present Vedado campus in 1902 — a few miles from Habana Vieja. The building shown in the video below, near the historic center, is that original colonial-era site, not the university's current location. The university later became a hotbed of student activism, including Fidel Castro's own student days.",
     connections: ["hemingway-havana"],
     whyItMatters: "It's a genuinely surprising fact for most students: Cuba has one of the oldest universities in the hemisphere, predating the United States itself by nearly 50 years."
   },

@@ -1040,7 +1040,7 @@ const EVENTS = [
     whyItMatters: "It's a reminder that cultural production was treated as a revolutionary priority from nearly the first weeks of the new government."
   },
   confidence: "high", confidenceNotes: "Exact founding date within March 1959 is not fully certain across sources.",
-  wikimedia: { searchTerm: "Cuban film poster 1960s", confidence: "verify" },
+  wikimedia: { searchTerm: "ICAIC logo Cuba", confidence: "verify" },
   links: [],
   videos: []
 },

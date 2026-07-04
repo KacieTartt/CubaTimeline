@@ -1212,7 +1212,7 @@ const EVENTS = [
     whyItMatters: "It's both a genuinely bizarre, fun set of facts and a serious illustration of how far Cold War covert action against Cuba actually went — useful context for Cuban state rhetoric about U.S. hostility."
   },
   confidence: "high", confidenceNotes: "The 8 Church-Committee-substantiated plots are well documented; the popularized '638' figure is contested and should be flagged as such.",
-  wikimedia: { searchTerm: "Cuban cigar box", confidence: "verify" },
+  wikimedia: { searchTerm: "intitle:Cohiba cigar", confidence: "verify" },
   links: [],
   videos: []
 },

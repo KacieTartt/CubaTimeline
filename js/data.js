@@ -728,7 +728,7 @@ const EVENTS = [
     whyItMatters: "This text lays out, years before 1959, the reform program the Revolution would later claim to fulfill — a key primary source for understanding what the movement said it stood for."
   },
   confidence: "high", confidenceNotes: "Trial date is certain; the widely-circulated written text was reconstructed by Castro from memory after the fact, so it should be read as a retrospective political document as much as a verbatim transcript.",
-  wikimedia: { searchTerm: "Fidel Castro young 1950s", confidence: "verify" },
+  wikimedia: { searchTerm: "Fidel Castro 1953 trial courtroom", confidence: "verify" },
   links: [
     { label: "\"History Will Absolve Me\" — full text, Marxists Internet Archive", url: "https://www.marxists.org/history/cuba/archive/castro/1953/10/16.htm", confidence: "verify" }
   ],

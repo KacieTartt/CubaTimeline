@@ -454,7 +454,7 @@ const EVENTS = [
     whyItMatters: "It's the organizational bridge between Martí's writing and the actual outbreak of the 1895 war."
   },
   confidence: "high", confidenceNotes: "Exact founding date within 1892 varies by source.",
-  wikimedia: { searchTerm: "Ybor City cigar factory Tampa", confidence: "verify" },
+  wikimedia: { searchTerm: "intitle:Ybor City", confidence: "verify" },
   links: [],
   videos: []
 },

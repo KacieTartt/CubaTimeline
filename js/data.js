@@ -1432,7 +1432,7 @@ const EVENTS = [
     whyItMatters: "It's the beginning of the market-oriented adaptations that, in different forms, continue to shape the Cuban economy today."
   },
   confidence: "high", confidenceNotes: "General reforms are well documented; exact scope and rollout dates are simplified here.",
-  wikimedia: { searchTerm: "US dollar banknote", confidence: "verify" },
+  wikimedia: { searchTerm: "Federal Reserve Note dollar bill", confidence: "verify" },
   links: [],
   videos: []
 },

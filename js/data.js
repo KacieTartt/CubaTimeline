@@ -85,7 +85,7 @@ const EVENTS = [
     whyItMatters: "These settlements are the direct ancestors of Cuba's modern cities, and the encomienda system set the template for the coerced-labor economy that sugar and slavery would later scale up dramatically."
   },
   confidence: "high", confidenceNotes: "General dates well established; exact founding dates of all seven original villas vary slightly by source.",
-  wikimedia: { searchTerm: "\"Velázquez de Cuéllar\" governor Cuba portrait", confidence: "verify" },
+  wikimedia: { searchTerm: "DiegoVelazquezCuellar", confidence: "verify" },
   links: [],
   videos: []
 },
@@ -190,7 +190,7 @@ const EVENTS = [
     whyItMatters: "It's a fun, little-known hinge point: without this raid, Havana's iconic fortification system — a huge part of what makes Old Havana a UNESCO site today — might have taken a very different shape."
   },
   confidence: "high", confidenceNotes: "Corroborated by fort-construction histories, though exact casualty/ransom details vary by source.",
-  wikimedia: { searchTerm: "16th century galleon privateer painting", confidence: "verify" },
+  wikimedia: { searchTerm: "16th century Caribbean pirate ship painting", confidence: "verify" },
   links: [],
   videos: []
 },
@@ -416,7 +416,7 @@ const EVENTS = [
     whyItMatters: "Martí's decades of exile-based organizing show how much of the independence movement's ideological groundwork was laid outside Cuba entirely."
   },
   confidence: "high", confidenceNotes: "Exact date of deportation within 1871 varies slightly by source.",
-  wikimedia: { searchTerm: "José Martí young portrait", confidence: "verify" },
+  wikimedia: { searchTerm: "José Martí", confidence: "verify" },
   links: [],
   videos: []
 },
@@ -618,7 +618,7 @@ const EVENTS = [
     whyItMatters: "These repeated interventions are the lived reality behind the abstract term 'neocolonialism' — Cuban sovereignty was formally recognized but practically constrained."
   },
   confidence: "high", confidenceNotes: "General pattern is well documented; specific dates/instances of intervention vary by source.",
-  wikimedia: { searchTerm: "US Marines Cuba occupation early 1900s", confidence: "verify" },
+  wikimedia: { searchTerm: "US Marines Guantanamo Cuba early 1900s", confidence: "verify" },
   links: [],
   videos: []
 },
@@ -728,7 +728,7 @@ const EVENTS = [
     whyItMatters: "This text lays out, years before 1959, the reform program the Revolution would later claim to fulfill — a key primary source for understanding what the movement said it stood for."
   },
   confidence: "high", confidenceNotes: "Trial date is certain; the widely-circulated written text was reconstructed by Castro from memory after the fact, so it should be read as a retrospective political document as much as a verbatim transcript.",
-  wikimedia: { searchTerm: "Fidel Castro trial 1953", confidence: "verify" },
+  wikimedia: { searchTerm: "Fidel Castro young 1950s", confidence: "verify" },
   links: [
     { label: "\"History Will Absolve Me\" — full text, Marxists Internet Archive", url: "https://www.marxists.org/history/cuba/archive/castro/1953/10/16.htm", confidence: "verify" }
   ],
@@ -748,7 +748,7 @@ const EVENTS = [
     whyItMatters: "This meeting is the origin point of one of the 20th century's most consequential political partnerships, and it links the Cuban Revolution directly to the broader Cold War pattern of U.S. intervention in Latin America."
   },
   confidence: "high", confidenceNotes: "Year is well documented; exact month/circumstances of the first meeting vary slightly by source.",
-  wikimedia: { searchTerm: "Che Guevara young Mexico 1955", confidence: "verify" },
+  wikimedia: { searchTerm: "Che Guevara portrait", confidence: "verify" },
   links: [],
   videos: []
 },
@@ -784,7 +784,7 @@ const EVENTS = [
     whyItMatters: "This two-year campaign is the military core of the Revolution's rise to power."
   },
   confidence: "high", confidenceNotes: "Broad timeline is well documented; specific campaign details are simplified here.",
-  wikimedia: { searchTerm: "Sierra Maestra guerrilla war Cuba", confidence: "verify" },
+  wikimedia: { searchTerm: "Sierra Maestra mountains Cuba landscape", confidence: "verify" },
   links: [],
   videos: []
 },
@@ -802,7 +802,7 @@ const EVENTS = [
     whyItMatters: "It marks the definitive end of the pre-revolutionary Cuban republic."
   },
   confidence: "high", confidenceNotes: "Well-documented date.",
-  wikimedia: { searchTerm: "Batista flight 1959", confidence: "verify" },
+  wikimedia: { searchTerm: "Fulgencio Batista 1959", confidence: "verify" },
   links: [],
   videos: []
 },
@@ -948,7 +948,7 @@ const EVENTS = [
     whyItMatters: "It's the clearest single statement of the ideological direction that would define Cuban government policy for the next three decades."
   },
   confidence: "high", confidenceNotes: "Date and quote are well documented.",
-  wikimedia: { searchTerm: "Fidel Castro 1961 television address", confidence: "verify" },
+  wikimedia: { searchTerm: "Fidel Castro 1961", confidence: "verify" },
   links: [],
   videos: []
 },
@@ -966,7 +966,7 @@ const EVENTS = [
     whyItMatters: "Alongside literacy, it's one of the clearest examples of the Revolution's poverty-reduction agenda in action."
   },
   confidence: "high", confidenceNotes: "General narrative is well documented; specific rollout dates and milestones are simplified here.",
-  wikimedia: { searchTerm: "Cuba rural health clinic 1960s", confidence: "verify" },
+  wikimedia: { searchTerm: "Cuban doctor medical", confidence: "verify" },
   links: [],
   videos: []
 },
@@ -1022,7 +1022,7 @@ const EVENTS = [
     whyItMatters: "Santería and Palo Monte are living proof of Ortiz's transculturación in action — not a historical relic, but a religious practice still shaping Cuban daily life, music, and public art today, most visibly at Callejón de Hamel."
   },
   confidence: "high", confidenceNotes: "Core saint/orisha pairings are well documented; the history of state policy toward these religions is simplified here and varies by source and period.",
-  wikimedia: { searchTerm: "Santería orisha altar Cuba", confidence: "verify" },
+  wikimedia: { searchTerm: "Santería altar orishas", confidence: "verify" },
   links: [],
   videos: []
 },
@@ -1040,7 +1040,7 @@ const EVENTS = [
     whyItMatters: "It's a reminder that cultural production was treated as a revolutionary priority from nearly the first weeks of the new government."
   },
   confidence: "high", confidenceNotes: "Exact founding date within March 1959 is not fully certain across sources.",
-  wikimedia: { searchTerm: "ICAIC Cuban film poster", confidence: "verify" },
+  wikimedia: { searchTerm: "Cuban film poster 1960s", confidence: "verify" },
   links: [],
   videos: []
 },
@@ -1058,7 +1058,7 @@ const EVENTS = [
     whyItMatters: "Its role in the 1971 Padilla Affair shows how cultural institutions founded with genuine artistic ambitions could also become instruments of political control."
   },
   confidence: "high", confidenceNotes: "Exact founding date is not fully certain across sources.",
-  wikimedia: { searchTerm: "UNEAC Cuba writers union", confidence: "verify" },
+  wikimedia: { searchTerm: "Havana colonial mansion building", confidence: "verify" },
   links: [],
   videos: []
 },
@@ -1096,7 +1096,7 @@ const EVENTS = [
     whyItMatters: "It's a concrete, still-operating example of the state-supported visual arts infrastructure the Revolution built — and a great complement to ICAIC's poster tradition."
   },
   confidence: "high", confidenceNotes: "Founding date is well documented.",
-  wikimedia: { searchTerm: "Taller Experimental de Grafica Havana printmaking", confidence: "verify" },
+  wikimedia: { searchTerm: "Cuban poster art print", confidence: "verify" },
   links: [],
   videos: [
     { id: "398904583", title: "Taller Experimental de Gráfica" }
@@ -1194,7 +1194,7 @@ const EVENTS = [
     whyItMatters: "The embargo's economic impact is one of the most contested and enduring topics in any Cuba course — central to nearly every subsequent era on this timeline."
   },
   confidence: "high", confidenceNotes: "Well-documented formal date.",
-  wikimedia: { searchTerm: "Havana harbor ships", confidence: "verify" },
+  wikimedia: { searchTerm: "John F. Kennedy 1962", confidence: "verify" },
   links: [],
   videos: []
 },
@@ -1212,7 +1212,7 @@ const EVENTS = [
     whyItMatters: "It's both a genuinely bizarre, fun set of facts and a serious illustration of how far Cold War covert action against Cuba actually went — useful context for Cuban state rhetoric about U.S. hostility."
   },
   confidence: "high", confidenceNotes: "The 8 Church-Committee-substantiated plots are well documented; the popularized '638' figure is contested and should be flagged as such.",
-  wikimedia: { searchTerm: "Church Committee Senate hearing 1975", confidence: "verify" },
+  wikimedia: { searchTerm: "Central Intelligence Agency seal", confidence: "verify" },
   links: [],
   videos: []
 },
@@ -1266,7 +1266,7 @@ const EVENTS = [
     whyItMatters: "It's a reminder that Cuba's Cold War role extended far beyond its own hemisphere — revolutionary Cuba positioned itself as an active participant in anti-colonial struggles across the Global South."
   },
   confidence: "high", confidenceNotes: "Broad dates are well documented; specific troop figures vary by source.",
-  wikimedia: { searchTerm: "Cuban troops Angola war", confidence: "verify" },
+  wikimedia: { searchTerm: "Angola map location", confidence: "verify" },
   links: [],
   videos: []
 },
@@ -1414,7 +1414,7 @@ const EVENTS = [
     whyItMatters: "It's the hinge point between the revolutionary state's Soviet-dependent economy and the more mixed, informally market-adapted economy of contemporary Cuba."
   },
   confidence: "high", confidenceNotes: "Well-documented trigger and start year.",
-  wikimedia: { searchTerm: "Havana bicycle 1990s", confidence: "verify" },
+  wikimedia: { searchTerm: "Havana Cuba 1990s", confidence: "verify" },
   links: [],
   videos: []
 },
@@ -1432,7 +1432,7 @@ const EVENTS = [
     whyItMatters: "It's the beginning of the market-oriented adaptations that, in different forms, continue to shape the Cuban economy today."
   },
   confidence: "high", confidenceNotes: "General reforms are well documented; exact scope and rollout dates are simplified here.",
-  wikimedia: { searchTerm: "Cuban peso currency", confidence: "verify" },
+  wikimedia: { searchTerm: "US dollar banknote", confidence: "verify" },
   links: [],
   videos: []
 },
@@ -1450,7 +1450,7 @@ const EVENTS = [
     whyItMatters: "It's a striking, visceral illustration of the human cost of the Special Period, and it directly shaped decades of subsequent U.S.-Cuba migration policy."
   },
   confidence: "high", confidenceNotes: "General narrative well documented; exact figures for rafters intercepted vary by source (commonly cited as over 30,000).",
-  wikimedia: { searchTerm: "Cuban rafters balseros crisis 1994", confidence: "verify" },
+  wikimedia: { searchTerm: "Cuban rafters raft ocean", confidence: "verify" },
   links: [],
   videos: []
 },
@@ -1468,7 +1468,7 @@ const EVENTS = [
     whyItMatters: "It's one of the most vivid living examples of contemporary Cuban folk art and cultural identity — a single artist's private obsession that became a beloved public landmark, and a direct, tangible complement to any reading on contemporary Cuban art."
   },
   confidence: "high", confidenceNotes: "Sources genuinely disagree on the 'start' date (1975 house vs. 1990s neighborhood expansion) — flagged explicitly rather than picking one.",
-  wikimedia: { searchTerm: "Fusterlandia Jaimanitas mosaic", confidence: "high" },
+  wikimedia: { searchTerm: "Fusterlandia mosaic house Cuba", confidence: "verify" },
   links: [],
   videos: [
     { id: "399318837", title: "Welcome to Fusterlandia" },
@@ -1527,7 +1527,7 @@ const EVENTS = [
     whyItMatters: "It's the beginning of the post-Fidel era in Cuban governance, setting the stage for the diplomatic and economic shifts that follow."
   },
   confidence: "high", confidenceNotes: "Dates are well documented.",
-  wikimedia: { searchTerm: "Raúl Castro president", confidence: "verify" },
+  wikimedia: { searchTerm: "Fidel Castro Raúl Castro", confidence: "verify" },
   links: [],
   videos: []
 },
@@ -1563,7 +1563,7 @@ const EVENTS = [
     whyItMatters: "The sharply divided global reaction to his death is itself a useful teaching moment about how contested his legacy remains."
   },
   confidence: "high", confidenceNotes: "Well-documented date.",
-  wikimedia: { searchTerm: "Fidel Castro portrait", confidence: "high" },
+  wikimedia: { searchTerm: "Fidel Castro elderly", confidence: "verify" },
   links: [],
   videos: []
 },
@@ -1599,7 +1599,7 @@ const EVENTS = [
     whyItMatters: "It's a striking, recent example of music functioning as direct political speech in Cuba — and a natural closing case study tying the course's cultural and political threads together."
   },
   confidence: "high", confidenceNotes: "Dates and artist list are well documented.",
-  wikimedia: { searchTerm: "Patria y Vida Cuba protest 2021", confidence: "verify" },
+  wikimedia: { searchTerm: "July 11 2021 Cuba protest", confidence: "verify" },
   links: [
     { label: "\"Patria y Vida\" — official music video, YouTube", url: "https://www.youtube.com/watch?v=pP9Bto5lOEQ", confidence: "verify" }
   ],
@@ -1619,7 +1619,7 @@ const EVENTS = [
     whyItMatters: "Every era on this timeline once looked like an ending and turned out to be a hinge point — a useful note to end a history course on."
   },
   confidence: "high", confidenceNotes: "Deliberately non-specific; not a dated historical claim.",
-  wikimedia: { searchTerm: "Havana Cuba contemporary street", confidence: "verify" },
+  wikimedia: { searchTerm: "Havana Cuba street 2020s", confidence: "verify" },
   links: [],
   videos: []
 },

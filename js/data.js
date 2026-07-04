@@ -710,7 +710,7 @@ const EVENTS = [
     whyItMatters: "Moncada is where the 'Fidel Castro as revolutionary leader' narrative begins, and it directly produces the next entry's speech."
   },
   confidence: "high", confidenceNotes: "Well-documented date; exact number of attackers varies slightly by source.",
-  wikimedia: { searchTerm: "Moncada Barracks attack 1953", confidence: "high" },
+  wikimedia: { searchTerm: "Moncada Barracks Santiago de Cuba building", confidence: "verify" },
   links: [],
   videos: []
 },

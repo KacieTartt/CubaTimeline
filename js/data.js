@@ -966,7 +966,7 @@ const EVENTS = [
     whyItMatters: "Alongside literacy, it's one of the clearest examples of the Revolution's poverty-reduction agenda in action."
   },
   confidence: "high", confidenceNotes: "General narrative is well documented; specific rollout dates and milestones are simplified here.",
-  wikimedia: { searchTerm: "Cuban doctor medical", confidence: "verify" },
+  wikimedia: { searchTerm: "Fidel Castro", confidence: "verify" },
   links: [],
   videos: []
 },

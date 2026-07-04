@@ -121,7 +121,7 @@ const EVENTS = [
     whyItMatters: "This sets up one of the course's central tensions: the old narrative of indigenous 'disappearance' versus Ortiz's later transculturation framework, which insists indigenous, African, and Spanish elements all persist and blend rather than one simply vanishing."
   },
   confidence: "high", confidenceNotes: "Specific population figures are heavily disputed and vary widely across sources; treat any single number with caution.",
-  wikimedia: { searchTerm: "Theodor de Bry Spanish conquest engraving", confidence: "verify" },
+  wikimedia: { searchTerm: "Taino petroglyph rock art Caribbean", confidence: "verify" },
   links: [],
   videos: []
 },

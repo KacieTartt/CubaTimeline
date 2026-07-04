@@ -1563,7 +1563,7 @@ const EVENTS = [
     whyItMatters: "The sharply divided global reaction to his death is itself a useful teaching moment about how contested his legacy remains."
   },
   confidence: "high", confidenceNotes: "Well-documented date.",
-  wikimedia: { searchTerm: "Fidel Castro elderly", confidence: "verify" },
+  wikimedia: { searchTerm: "Fidel Castro 2010", confidence: "verify" },
   links: [],
   videos: []
 },

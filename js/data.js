@@ -283,12 +283,12 @@ const EVENTS = [
   isFunFact: false,
   summary: "French planters flee the Haitian Revolution for eastern Cuba, bringing capital, enslaved laborers, and expertise that accelerate Cuba's coffee cultivation and broader plantation economy.",
   details: {
-    context: "As the only successful large-scale slave revolt in the Americas unfolded in Saint-Domingue, thousands of French colonists and their enslaved workers relocated to Cuba's Oriente region, introducing intensive coffee farming alongside the island's growing sugar sector.",
+    context: "As the only successful large-scale slave revolt in the Americas unfolded in Saint-Domingue — led first by Toussaint Louverture and, after his capture, by Jean-Jacques Dessalines — thousands of French colonists and their enslaved workers relocated to Cuba's Oriente region, introducing intensive coffee farming alongside the island's growing sugar sector.",
     connections: ["cuba-largest-sugar-producer"],
     whyItMatters: "It's a reminder that Cuba's plantation boom didn't happen in isolation — it was directly accelerated by the collapse of a rival slave colony next door."
   },
   confidence: "high", confidenceNotes: "General narrative is well established; specific migration figures vary by source.",
-  wikimedia: { searchTerm: "Haitian Revolution refugees coffee plantation", confidence: "verify" },
+  wikimedia: { searchTerm: "Toussaint Louverture portrait", confidence: "verify" },
   links: [],
   videos: []
 },
@@ -454,7 +454,7 @@ const EVENTS = [
     whyItMatters: "It's the organizational bridge between Martí's writing and the actual outbreak of the 1895 war."
   },
   confidence: "high", confidenceNotes: "Exact founding date within 1892 varies by source.",
-  wikimedia: { searchTerm: "José Martí", confidence: "verify" },
+  wikimedia: { searchTerm: "Ybor City cigar factory Tampa", confidence: "verify" },
   links: [],
   videos: []
 },
@@ -618,7 +618,7 @@ const EVENTS = [
     whyItMatters: "These repeated interventions are the lived reality behind the abstract term 'neocolonialism' — Cuban sovereignty was formally recognized but practically constrained."
   },
   confidence: "high", confidenceNotes: "General pattern is well documented; specific dates/instances of intervention vary by source.",
-  wikimedia: { searchTerm: "Guantanamo Bay Naval Station historical photograph", confidence: "verify" },
+  wikimedia: { searchTerm: "intitle:Guantanamo Bay Naval Base", confidence: "verify" },
   links: [],
   videos: []
 },
@@ -710,7 +710,7 @@ const EVENTS = [
     whyItMatters: "Moncada is where the 'Fidel Castro as revolutionary leader' narrative begins, and it directly produces the next entry's speech."
   },
   confidence: "high", confidenceNotes: "Well-documented date; exact number of attackers varies slightly by source.",
-  wikimedia: { searchTerm: "Moncada Barracks Santiago de Cuba building", confidence: "verify" },
+  wikimedia: { searchTerm: "intitle:Moncada", confidence: "verify" },
   links: [],
   videos: []
 },
@@ -728,7 +728,7 @@ const EVENTS = [
     whyItMatters: "This text lays out, years before 1959, the reform program the Revolution would later claim to fulfill — a key primary source for understanding what the movement said it stood for."
   },
   confidence: "high", confidenceNotes: "Trial date is certain; the widely-circulated written text was reconstructed by Castro from memory after the fact, so it should be read as a retrospective political document as much as a verbatim transcript.",
-  wikimedia: { searchTerm: "Fidel Castro 1953 trial courtroom", confidence: "verify" },
+  wikimedia: { searchTerm: "Fidel Castro 1953", confidence: "verify" },
   links: [
     { label: "\"History Will Absolve Me\" — full text, Marxists Internet Archive", url: "https://www.marxists.org/history/cuba/archive/castro/1953/10/16.htm", confidence: "verify" }
   ],
@@ -894,7 +894,7 @@ const EVENTS = [
     whyItMatters: "Along with agrarian reform, it's a concrete example of the redistributive policy that defined the Revolution's early domestic agenda."
   },
   confidence: "high", confidenceNotes: "General provisions are documented; exact date and details are less consistently reported across sources.",
-  wikimedia: { searchTerm: "Havana apartment buildings 1960s", confidence: "verify" },
+  wikimedia: { searchTerm: "Havana residential buildings street", confidence: "verify" },
   links: [],
   videos: []
 },
@@ -1096,7 +1096,7 @@ const EVENTS = [
     whyItMatters: "It's a concrete, still-operating example of the state-supported visual arts infrastructure the Revolution built — and a great complement to ICAIC's poster tradition."
   },
   confidence: "high", confidenceNotes: "Founding date is well documented.",
-  wikimedia: { searchTerm: "Callejón del Chorro Havana", confidence: "verify" },
+  wikimedia: { searchTerm: "intitle:Plaza de la Catedral Habana", confidence: "verify" },
   links: [],
   videos: [
     { id: "398904583", title: "Taller Experimental de Gráfica" }
@@ -1212,7 +1212,7 @@ const EVENTS = [
     whyItMatters: "It's both a genuinely bizarre, fun set of facts and a serious illustration of how far Cold War covert action against Cuba actually went — useful context for Cuban state rhetoric about U.S. hostility."
   },
   confidence: "high", confidenceNotes: "The 8 Church-Committee-substantiated plots are well documented; the popularized '638' figure is contested and should be flagged as such.",
-  wikimedia: { searchTerm: "Frank Church Senate committee", confidence: "verify" },
+  wikimedia: { searchTerm: "Frank Church senator", confidence: "verify" },
   links: [],
   videos: []
 },
@@ -1450,7 +1450,7 @@ const EVENTS = [
     whyItMatters: "It's a striking, visceral illustration of the human cost of the Special Period, and it directly shaped decades of subsequent U.S.-Cuba migration policy."
   },
   confidence: "high", confidenceNotes: "General narrative well documented; exact figures for rafters intercepted vary by source (commonly cited as over 30,000).",
-  wikimedia: { searchTerm: "balseros cubanos", confidence: "verify" },
+  wikimedia: { searchTerm: "Cuban rafters Coast Guard rescue", confidence: "verify" },
   links: [],
   videos: []
 },

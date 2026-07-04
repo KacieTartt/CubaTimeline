@@ -784,7 +784,7 @@ const EVENTS = [
     whyItMatters: "This two-year campaign is the military core of the Revolution's rise to power."
   },
   confidence: "high", confidenceNotes: "Broad timeline is well documented; specific campaign details are simplified here.",
-  wikimedia: { searchTerm: "Sierra Maestra mountains Cuba landscape", confidence: "verify" },
+  wikimedia: { searchTerm: "intitle:Sierra Maestra", confidence: "verify" },
   links: [],
   videos: []
 },

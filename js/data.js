@@ -454,7 +454,7 @@ const EVENTS = [
     whyItMatters: "It's the organizational bridge between Martí's writing and the actual outbreak of the 1895 war."
   },
   confidence: "high", confidenceNotes: "Exact founding date within 1892 varies by source.",
-  wikimedia: { searchTerm: "José Martí 1890s portrait", confidence: "verify" },
+  wikimedia: { searchTerm: "José Martí", confidence: "verify" },
   links: [],
   videos: []
 },

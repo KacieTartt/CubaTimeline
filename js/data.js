@@ -618,7 +618,7 @@ const EVENTS = [
     whyItMatters: "These repeated interventions are the lived reality behind the abstract term 'neocolonialism' — Cuban sovereignty was formally recognized but practically constrained."
   },
   confidence: "high", confidenceNotes: "General pattern is well documented; specific dates/instances of intervention vary by source.",
-  wikimedia: { searchTerm: "US Marines Guantanamo Cuba early 1900s", confidence: "verify" },
+  wikimedia: { searchTerm: "Guantanamo Bay Naval Station historical photograph", confidence: "verify" },
   links: [],
   videos: []
 },

@@ -1051,14 +1051,14 @@ const EVENTS = [
   era: "culture-revolution",
   readingTags: ["Culture and Revolution"],
   isFunFact: false,
-  summary: "The state-sponsored Union of Writers and Artists of Cuba (UNEAC) is founded to organize the country's cultural producers — the same institution that would later stage the Padilla confession.",
+  summary: "The state-sponsored Union of Writers and Artists of Cuba (UNEAC) is founded to organize the country's cultural producers, with poet Nicolás Guillén as its first president — the same institution that would later stage the Padilla confession.",
   details: {
-    context: "UNEAC became the official channel through which the state related to (and monitored) Cuban writers and artists, membership in it often functioning as de facto professional legitimacy.",
-    connections: ["words-to-intellectuals-1961", "padilla-affair-1971"],
+    context: "UNEAC became the official channel through which the state related to (and monitored) Cuban writers and artists, membership in it often functioning as de facto professional legitimacy. Guillén, already Cuba's best-known poet, led the union from its founding, lending it literary credibility even as it took on a disciplinary role toward artists who stepped out of line.",
+    connections: ["words-to-intellectuals-1961", "padilla-affair-1971", "nicolas-guillen-afro-cuban-poetry"],
     whyItMatters: "Its role in the 1971 Padilla Affair shows how cultural institutions founded with genuine artistic ambitions could also become instruments of political control."
   },
   confidence: "high", confidenceNotes: "Exact founding date is not fully certain across sources.",
-  wikimedia: { searchTerm: "Havana colonial mansion building", confidence: "verify" },
+  wikimedia: { searchTerm: "Nicolás Guillén", confidence: "verify" },
   links: [],
   videos: []
 },
@@ -1096,7 +1096,7 @@ const EVENTS = [
     whyItMatters: "It's a concrete, still-operating example of the state-supported visual arts infrastructure the Revolution built — and a great complement to ICAIC's poster tradition."
   },
   confidence: "high", confidenceNotes: "Founding date is well documented.",
-  wikimedia: { searchTerm: "Cuban poster art print", confidence: "verify" },
+  wikimedia: { searchTerm: "Callejón del Chorro Havana", confidence: "verify" },
   links: [],
   videos: [
     { id: "398904583", title: "Taller Experimental de Gráfica" }
@@ -1212,7 +1212,7 @@ const EVENTS = [
     whyItMatters: "It's both a genuinely bizarre, fun set of facts and a serious illustration of how far Cold War covert action against Cuba actually went — useful context for Cuban state rhetoric about U.S. hostility."
   },
   confidence: "high", confidenceNotes: "The 8 Church-Committee-substantiated plots are well documented; the popularized '638' figure is contested and should be flagged as such.",
-  wikimedia: { searchTerm: "Central Intelligence Agency seal", confidence: "verify" },
+  wikimedia: { searchTerm: "Frank Church Senate committee", confidence: "verify" },
   links: [],
   videos: []
 },

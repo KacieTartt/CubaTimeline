@@ -1004,7 +1004,7 @@ const EVENTS = [
     whyItMatters: "Guillén's work is the clearest literary companion to Ortiz's transculturación — using poetry, rather than anthropology, to insist that Afro-Cuban culture is Cuban culture, not an addition to it."
   },
   confidence: "high", confidenceNotes: "Publication year and core biography are well documented; some anthologized translations of 'Caña' vary slightly in wording.",
-  wikimedia: { searchTerm: "Nicolás Guillén Cuban poet", confidence: "verify" },
+  wikimedia: { searchTerm: "Nicolás Guillén", confidence: "verify" },
   links: [],
   videos: []
 },

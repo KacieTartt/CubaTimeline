@@ -449,12 +449,12 @@ const EVENTS = [
   isFunFact: false,
   summary: "Martí organizes exiled Cubans, largely in the U.S. and Caribbean, into a unified political party to fund and coordinate the coming war for independence.",
   details: {
-    context: "The party unified previously fragmented exile factions and raised money — famously including small contributions from Cuban cigar workers in Florida — to prepare for a renewed war.",
+    context: "The party unified previously fragmented exile factions and raised money — famously including small contributions from Cuban cigar workers in Florida — to prepare for a renewed war. Martí made repeated trips to Tampa and Key West through the late 1880s and early 1890s, giving speeches directly inside cigar factories to rally support; workers there regularly donated a share of their wages to the cause.",
     connections: ["marti-nuestra-america-1891", "grito-de-baire-1895"],
     whyItMatters: "It's the organizational bridge between Martí's writing and the actual outbreak of the 1895 war."
   },
   confidence: "high", confidenceNotes: "Exact founding date within 1892 varies by source.",
-  wikimedia: { searchTerm: "intitle:Ybor City", confidence: "verify" },
+  wikimedia: { searchTerm: "cigar factory workers Tampa historical", confidence: "verify" },
   links: [],
   videos: []
 },
@@ -710,7 +710,7 @@ const EVENTS = [
     whyItMatters: "Moncada is where the 'Fidel Castro as revolutionary leader' narrative begins, and it directly produces the next entry's speech."
   },
   confidence: "high", confidenceNotes: "Well-documented date; exact number of attackers varies slightly by source.",
-  wikimedia: { searchTerm: "intitle:Moncada", confidence: "verify" },
+  wikimedia: { searchTerm: "26 de Julio Movement flag", confidence: "verify" },
   links: [],
   videos: []
 },
@@ -748,7 +748,7 @@ const EVENTS = [
     whyItMatters: "This meeting is the origin point of one of the 20th century's most consequential political partnerships, and it links the Cuban Revolution directly to the broader Cold War pattern of U.S. intervention in Latin America."
   },
   confidence: "high", confidenceNotes: "Year is well documented; exact month/circumstances of the first meeting vary slightly by source.",
-  wikimedia: { searchTerm: "Che Guevara portrait", confidence: "verify" },
+  wikimedia: { searchTerm: "intitle:Che Guevara", confidence: "verify" },
   links: [],
   videos: []
 },

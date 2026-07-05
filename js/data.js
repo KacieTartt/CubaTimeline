@@ -454,7 +454,7 @@ const EVENTS = [
     whyItMatters: "It's the organizational bridge between Martí's writing and the actual outbreak of the 1895 war."
   },
   confidence: "high", confidenceNotes: "Exact founding date within 1892 varies by source.",
-  wikimedia: { searchTerm: "cigar factory workers Tampa historical", confidence: "verify" },
+  wikimedia: { searchTerm: "intitle:José Martí", confidence: "verify" },
   links: [],
   videos: []
 },
@@ -748,7 +748,7 @@ const EVENTS = [
     whyItMatters: "This meeting is the origin point of one of the 20th century's most consequential political partnerships, and it links the Cuban Revolution directly to the broader Cold War pattern of U.S. intervention in Latin America."
   },
   confidence: "high", confidenceNotes: "Year is well documented; exact month/circumstances of the first meeting vary slightly by source.",
-  wikimedia: { searchTerm: "intitle:Che Guevara", confidence: "verify" },
+  wikimedia: { searchTerm: "intitle:Guerrillero Heroico", confidence: "verify" },
   links: [],
   videos: []
 },

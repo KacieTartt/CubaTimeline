@@ -67,7 +67,7 @@ const EVENTS = [
     whyItMatters: "It's a vivid, genuinely surprising illustration of how colonial power could compel 'truth' by decree — a theme that recurs throughout Cuban history in different forms."
   },
   confidence: "high", confidenceNotes: "Well documented in multiple historical accounts of the second voyage.",
-  wikimedia: { searchTerm: "Columbus ship Santa María replica", confidence: "verify" },
+  wikimedia: { searchTerm: "Christopher Columbus statue monument", confidence: "verify" },
   links: [],
   videos: []
 },
